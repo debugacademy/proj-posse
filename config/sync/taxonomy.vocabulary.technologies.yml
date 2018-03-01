@@ -1,0 +1,9 @@
+uuid: f3958a6c-ccc9-462f-9f1f-a466d57ae5e1
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: technologies
+description: 'Programming technologies'
+hierarchy: 0
+weight: 0

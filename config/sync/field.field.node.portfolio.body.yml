@@ -1,0 +1,22 @@
+uuid: 2aeeb274-58c6-4d65-8d2b-43ba97c807ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.body
+field_name: body
+entity_type: node
+bundle: portfolio
+label: Description
+description: 'Describe the work you did on this project'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
