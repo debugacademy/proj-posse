@@ -1,0 +1,22 @@
+uuid: 38664477-dad7-4644-a618-fd966ec86183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.body
+field_name: body
+entity_type: node
+bundle: portfolio
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
