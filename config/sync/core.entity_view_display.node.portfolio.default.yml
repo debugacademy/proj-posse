@@ -1,0 +1,26 @@
+uuid: ab529335-ea79-4ece-860a-13e323db369a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio.body
+    - node.type.portfolio
+  module:
+    - text
+    - user
+id: node.portfolio.default
+targetEntityType: node
+bundle: portfolio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

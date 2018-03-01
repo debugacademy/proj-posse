@@ -1,0 +1,9 @@
+uuid: 581471df-3cc6-4c82-8846-7ef63b7a873e
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: technologies
+description: ''
+hierarchy: 0
+weight: 0
