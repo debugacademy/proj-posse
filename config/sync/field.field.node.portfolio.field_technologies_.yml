@@ -1,0 +1,29 @@
+uuid: 366f9361-7b6a-4f1a-bec5-dcac0dc35888
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologies_
+    - node.type.portfolio
+    - taxonomy.vocabulary.technologies_
+id: node.portfolio.field_technologies_
+field_name: field_technologies_
+entity_type: node
+bundle: portfolio
+label: 'Technologies '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      technologies_: technologies_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
