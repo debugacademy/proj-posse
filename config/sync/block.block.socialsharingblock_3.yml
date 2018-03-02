@@ -1,0 +1,20 @@
+uuid: e70bf175-b07c-4f59-92c1-895d718cff99
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media
+  theme:
+    - bartik
+id: socialsharingblock_3
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Laboratory '
+  provider: social_media
+  label_display: visible
+visibility: {  }
