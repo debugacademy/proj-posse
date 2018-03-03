@@ -1,0 +1,28 @@
+uuid: 28d8e807-3276-42c1-a36f-922411a0c8d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_
+    - field.storage.contact_message.field_name_
+id: contact_message.contact_.field_name_
+field_name: field_name_
+entity_type: contact_message
+bundle: contact_
+label: 'Name '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference
