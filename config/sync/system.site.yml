@@ -1,0 +1,14 @@
+uuid: 81e4f6c0-5deb-44dd-981f-184237b3a382
+name: 'Task #525 Contact Form'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

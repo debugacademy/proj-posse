@@ -1,0 +1,29 @@
+uuid: 183e4326-1aef-43f7-88d8-003781be949c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.drupal_8_inquiries
+    - field.storage.contact_message.field_how_did_you_find_me_
+    - taxonomy.vocabulary.select
+id: contact_message.drupal_8_inquiries.field_how_did_you_find_me_
+field_name: field_how_did_you_find_me_
+entity_type: contact_message
+bundle: drupal_8_inquiries
+label: 'How did you find me?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select: select
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

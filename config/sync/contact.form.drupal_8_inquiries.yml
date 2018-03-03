@@ -1,0 +1,12 @@
+uuid: 202d2493-1bc4-4205-b783-06226a4586ee
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_8_inquiries
+label: 'Drupal 8 Inquiries'
+recipients:
+  - kevinpost16@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you for getting in touch with me about Drupal 8.  I will respond shortly.'
+redirect: /

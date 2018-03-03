@@ -1,0 +1,59 @@
+uuid: e809ddd3-06d1-45c2-8e68-baedd885e779
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.drupal_8_inquiries
+    - field.field.contact_message.drupal_8_inquiries.field_email
+    - field.field.contact_message.drupal_8_inquiries.field_how_did_you_find_me_
+    - field.field.contact_message.drupal_8_inquiries.field_name
+    - field.field.contact_message.drupal_8_inquiries.field_phone
+id: contact_message.drupal_8_inquiries.default
+targetEntityType: contact_message
+bundle: drupal_8_inquiries
+mode: default
+content:
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_how_did_you_find_me_:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_phone:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  message:
+    type: string_textarea
+    weight: 4
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  copy: true
+  mail: true
+  name: true
+  preview: true
+  subject: true

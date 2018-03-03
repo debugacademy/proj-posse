@@ -1,0 +1,19 @@
+uuid: 47569748-1dbe-40a8-b934-204b7465779d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.drupal_8_inquiries
+    - field.storage.contact_message.field_email
+id: contact_message.drupal_8_inquiries.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: drupal_8_inquiries
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
