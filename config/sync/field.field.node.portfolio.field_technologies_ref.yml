@@ -1,0 +1,29 @@
+uuid: 0f199f55-25ac-404f-a9ef-84b79f429a88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologies_ref
+    - node.type.portfolio
+    - taxonomy.vocabulary.technologies
+id: node.portfolio.field_technologies_ref
+field_name: field_technologies_ref
+entity_type: node
+bundle: portfolio
+label: Technologies
+description: 'What technologies were used to build this project? E.g. PHP, Drupal, etc.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      technologies: technologies
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
