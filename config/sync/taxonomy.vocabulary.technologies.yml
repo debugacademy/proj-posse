@@ -1,0 +1,9 @@
+uuid: 6e26e944-7a76-4260-82da-57f08d49226a
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: technologies
+description: 'Taxo of technologies used to create websites'
+hierarchy: 0
+weight: 0
