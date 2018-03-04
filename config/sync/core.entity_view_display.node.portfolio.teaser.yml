@@ -25,4 +25,7 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_hero_image: true
+  field_technologies: true
+  field_url: true
