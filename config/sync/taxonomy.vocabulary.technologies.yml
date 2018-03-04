@@ -1,0 +1,9 @@
+uuid: cfed7a99-0c74-48e4-8c56-2e136d9cf3a8
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: technologies
+description: 'Use to group different technologies into categories.'
+hierarchy: 1
+weight: 0
