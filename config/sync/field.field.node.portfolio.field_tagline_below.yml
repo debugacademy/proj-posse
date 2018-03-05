@@ -1,0 +1,21 @@
+uuid: 919cd318-56a0-479e-82df-9a55bac06fbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tagline_below
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_tagline_below
+field_name: field_tagline_below
+entity_type: node
+bundle: portfolio
+label: 'Tagline Below'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

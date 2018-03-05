@@ -1,0 +1,21 @@
+uuid: 568d4276-5c73-4fca-b203-cf597825db24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_text_2
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_body_text_2
+field_name: field_body_text_2
+entity_type: node
+bundle: portfolio
+label: 'Body Text 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
