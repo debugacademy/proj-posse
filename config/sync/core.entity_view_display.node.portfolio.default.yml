@@ -4,7 +4,19 @@ status: true
 dependencies:
   config:
     - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_body_header_1
+    - field.field.node.portfolio.field_body_header_2
+    - field.field.node.portfolio.field_body_laptop_image
+    - field.field.node.portfolio.field_body_tablet_image
+    - field.field.node.portfolio.field_body_text_1
+    - field.field.node.portfolio.field_body_text_2
+    - field.field.node.portfolio.field_bottom_mobile_image_1
+    - field.field.node.portfolio.field_bottom_mobile_image_2
+    - field.field.node.portfolio.field_bottom_mobile_image_3
     - field.field.node.portfolio.field_hero_image
+    - field.field.node.portfolio.field_mobile_image
+    - field.field.node.portfolio.field_tagline_above
+    - field.field.node.portfolio.field_tagline_below
     - field.field.node.portfolio.field_technologies
     - field.field.node.portfolio.field_url
     - node.type.portfolio
@@ -25,6 +37,79 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_body_header_1:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_body_header_2:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_body_laptop_image:
+    weight: 112
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_body_tablet_image:
+    weight: 109
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_body_text_1:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_body_text_2:
+    weight: 114
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_bottom_mobile_image_1:
+    weight: 115
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_bottom_mobile_image_2:
+    weight: 116
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_bottom_mobile_image_3:
+    weight: 117
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_hero_image:
     weight: 102
     label: above
@@ -33,6 +118,29 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_mobile_image:
+    weight: 108
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tagline_above:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tagline_below:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_technologies:
     weight: 104

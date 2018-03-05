@@ -1,0 +1,38 @@
+uuid: 8e80ade0-f442-47a5-a740-dab30da0dbac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_laptop_image
+    - node.type.portfolio
+  module:
+    - image
+id: node.portfolio.field_body_laptop_image
+field_name: field_body_laptop_image
+entity_type: node
+bundle: portfolio
+label: 'Body Laptop Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,21 @@
+uuid: ca80f8ff-2cd4-4fae-bdd3-f25cd8a03e05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_header_2
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_body_header_2
+field_name: field_body_header_2
+entity_type: node
+bundle: portfolio
+label: 'Body Header 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

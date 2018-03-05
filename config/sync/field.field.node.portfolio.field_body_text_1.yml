@@ -1,0 +1,21 @@
+uuid: f8646905-3434-424e-a961-f48b2bb95f82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_text_1
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_body_text_1
+field_name: field_body_text_1
+entity_type: node
+bundle: portfolio
+label: 'Body Text 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
