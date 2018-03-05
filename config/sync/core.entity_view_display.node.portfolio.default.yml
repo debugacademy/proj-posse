@@ -5,6 +5,9 @@ dependencies:
   config:
     - field.field.node.portfolio.body
     - field.field.node.portfolio.field_hero_image
+    - field.field.node.portfolio.field_mobile_image_
+    - field.field.node.portfolio.field_tagline_slogan
+    - field.field.node.portfolio.field_tagline_slogan_above
     - field.field.node.portfolio.field_technologies
     - field.field.node.portfolio.field_url
     - node.type.portfolio
@@ -33,6 +36,31 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_mobile_image_:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tagline_slogan:
+    weight: 106
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tagline_slogan_above:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_technologies:
     weight: 104
