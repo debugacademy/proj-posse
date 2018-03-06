@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^1",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
+        "drupal/social_media_links": "^2.6",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
