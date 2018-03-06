@@ -1,0 +1,10 @@
+buttons_size: 32
+additional_html: "<a class=\"a2a_button_facebook\" data-href=\"https://www.facebook.com/Mediamatters/\"></a>\r\n<a class=\"a2a_button_twitter_tweet\" data-href=\"https://twitter.com/mmfa\" data-via=\"AddToAny\"></a>\r\n<a class=\"a2a_button_google_plusone\" data-href=\"http://example.com/\" data-size=\"tall\"></a>\r\n<a class=\"a2a_button_pinterest_pin\" data-href=\"https://www.pinterest.com/mamesaye/pins/\"></a>\r\n<a class=\"a2a_button_linkedin_share\"  data-href=\"https://www.flickr.com/photos/kentbrew/6851755809/\"></a>"
+additional_css: ''
+additional_js: ''
+universal_button: none
+custom_universal_button: ''
+universal_button_placement: before
+no_3p: false
+_core:
+  default_config_hash: 8aJF-FDdnrk-N2gLGWFQcLZIpuJZA0BE9NtgXTVJfVk
