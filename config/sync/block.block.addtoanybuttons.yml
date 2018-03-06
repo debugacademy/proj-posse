@@ -1,0 +1,20 @@
+uuid: 37e7aa08-b3a6-4b80-94a1-65438ee2bd5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - bartik
+id: addtoanybuttons
+theme: bartik
+region: footer_fifth
+weight: -5
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: AddToAnyButtons
+  provider: addtoany
+  label_display: '0'
+visibility: {  }
