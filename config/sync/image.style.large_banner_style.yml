@@ -1,0 +1,14 @@
+uuid: 1fb6f8bc-e22b-4824-9fe9-e629eefc3a42
+langcode: en
+status: true
+dependencies: {  }
+name: large_banner_style
+label: 'Large Banner Style'
+effects:
+  cbe51b8a-7107-4602-90fa-d2a3a3758bcc:
+    uuid: cbe51b8a-7107-4602-90fa-d2a3a3758bcc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1065
+      height: 555
