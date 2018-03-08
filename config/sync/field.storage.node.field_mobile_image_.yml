@@ -13,7 +13,7 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: edb9028d-2dc5-4aec-95c6-46e9fa9cb6f8
+    uuid: ''
     alt: 'Mobile Blog '
     title: 'Mobile Image '
     width: 350
@@ -23,7 +23,7 @@ settings:
   display_default: false
 module: image
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
