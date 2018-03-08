@@ -1,0 +1,14 @@
+uuid: c4567ea8-bfc4-4da5-85f9-c8c9111c353e
+langcode: en
+status: true
+dependencies: {  }
+name: large_banner
+label: 'Large Banner (1065 x 555)'
+effects:
+  c2d0155e-96a1-4f40-a2fc-423a868376c8:
+    uuid: c2d0155e-96a1-4f40-a2fc-423a868376c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1065
+      height: 555
