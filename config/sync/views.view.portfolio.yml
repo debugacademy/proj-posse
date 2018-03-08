@@ -538,6 +538,7 @@ display:
       use_more: true
       use_more_always: true
       use_more_text: 'View all Projects'
+      block_description: Work
     cache_metadata:
       max-age: -1
       contexts:
