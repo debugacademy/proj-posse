@@ -1,0 +1,21 @@
+uuid: 3497b928-9230-4798-a64a-724bbb65d446
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tagline_slogan_below
+field_name: field_tagline_slogan_below
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
