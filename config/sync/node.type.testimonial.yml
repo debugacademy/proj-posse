@@ -1,0 +1,17 @@
+uuid: ae6e9070-b821-45b8-9b7f-12a82c478d0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Testimonial
+type: testimonial
+description: 'Used to affirm the performance, quality, and/or value of a product or service.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

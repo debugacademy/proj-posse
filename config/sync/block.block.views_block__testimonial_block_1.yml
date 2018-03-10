@@ -1,0 +1,24 @@
+uuid: 3ca944a1-ded3-4026-ae9a-b25c7b5d7f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testimonial
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__testimonial_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:testimonial-block_1'
+settings:
+  id: 'views_block:testimonial-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
