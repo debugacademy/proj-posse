@@ -4,11 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.blog.body
-    - field.field.node.blog.field_blog_author
     - field.field.node.blog.field_blog_image
+    - field.field.node.blog.field_date_
     - image.style.thumbnail
     - node.type.blog
   module:
+    - datetime
     - image
     - path
     - text
@@ -32,14 +33,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_blog_author:
-    weight: 122
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_blog_image:
     weight: 123
     settings:
@@ -47,6 +40,12 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_date_:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   path:
     type: path
