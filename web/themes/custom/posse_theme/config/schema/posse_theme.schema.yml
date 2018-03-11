@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+posse_theme.settings:
+  type: theme_settings
+  label: 'posse_theme settings'
