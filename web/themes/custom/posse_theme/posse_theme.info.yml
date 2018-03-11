@@ -6,15 +6,7 @@ name: 'POSSE Theme'
 description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
-regions:
-  navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
-  highlighted: 'Highlighted'
-  help: 'Help'
-  content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
+regions:*
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
@@ -22,3 +14,6 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - posse_theme/framework
+
+libraries:
+  - 'posse_theme/fonts'
