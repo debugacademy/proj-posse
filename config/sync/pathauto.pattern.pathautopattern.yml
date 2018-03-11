@@ -1,0 +1,25 @@
+uuid: 41353d94-de0b-47e7-8c23-ac194e44740d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pathautopattern
+label: pathautoPattern
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  c375ad54-0688-4867-b225-d92f34ef6a9e:
+    id: node_type
+    bundles:
+      article: article
+      blog: blog
+      page: page
+      portfolio: portfolio
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c375ad54-0688-4867-b225-d92f34ef6a9e
+selection_logic: and
+weight: -5
+relationships: {  }
