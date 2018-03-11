@@ -1,0 +1,28 @@
+uuid: b85a6fdc-cbc0-4cd4-94af-ead5af6a4f47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.testimonials_
+id: node.testimonials_.field_name
+field_name: field_name
+entity_type: node
+bundle: testimonials_
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference
