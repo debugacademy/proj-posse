@@ -7,9 +7,9 @@ dependencies:
 id: pathautopattern
 label: pathautoPattern
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: '[node:content-type]/[node:title]'
 selection_criteria:
-  c375ad54-0688-4867-b225-d92f34ef6a9e:
+  ade3a83b-6890-40db-bd0b-00159bb2dc7d:
     id: node_type
     bundles:
       article: article
@@ -19,7 +19,7 @@ selection_criteria:
     negate: false
     context_mapping:
       node: node
-    uuid: c375ad54-0688-4867-b225-d92f34ef6a9e
+    uuid: ade3a83b-6890-40db-bd0b-00159bb2dc7d
 selection_logic: and
 weight: -5
 relationships: {  }
