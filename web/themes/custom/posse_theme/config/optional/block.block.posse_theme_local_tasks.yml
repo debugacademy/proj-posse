@@ -1,0 +1,22 @@
+uuid: cd61cdbe-0cf6-4ed6-8d2d-4ce7886a113d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: posse_theme_local_tasks
+theme: posse_theme
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
