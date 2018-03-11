@@ -26,5 +26,6 @@ content:
     weight: 100
     region: content
 hidden:
+  addtoany: true
   field_blog_author: true
   field_blog_image: true
