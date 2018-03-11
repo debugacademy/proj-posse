@@ -8,7 +8,7 @@ dependencies:
     - posse_theme
 id: posse_theme_addtoanybuttons
 theme: posse_theme
-region: navigation
+region: footer
 weight: -7
 provider: null
 plugin: addtoany_block
