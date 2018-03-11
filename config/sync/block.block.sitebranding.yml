@@ -1,4 +1,4 @@
-uuid: 99997c3f-8d48-494c-8d50-fa6eb19f5fe9
+uuid: 96bb73c4-9f06-4d5b-80ef-a3479834c7ea
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,9 @@ dependencies:
     - system
   theme:
     - posse_theme
-_core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: posse_theme_branding
+id: sitebranding
 theme: posse_theme
-region: navigation
+region: footer
 weight: -8
 provider: null
 plugin: system_branding_block
@@ -21,5 +19,5 @@ settings:
   label_display: '0'
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }
