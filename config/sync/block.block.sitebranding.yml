@@ -1,0 +1,23 @@
+uuid: d0b47c5e-306c-4dbf-a281-dd6db7c4eb72
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - posse_theme
+id: sitebranding
+theme: posse_theme
+region: footer
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
