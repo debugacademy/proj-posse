@@ -1,0 +1,22 @@
+uuid: b2485c37-cc19-4a16-bb71-c9c35b4ae449
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: posse_theme_help
+theme: posse_theme
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
