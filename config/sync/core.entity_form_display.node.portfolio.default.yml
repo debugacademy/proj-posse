@@ -5,10 +5,11 @@ dependencies:
   config:
     - field.field.node.portfolio.body
     - field.field.node.portfolio.field_hero_image
-    - field.field.node.portfolio.field_mobile_image_
-    - field.field.node.portfolio.field_tagline_slogan
+    - field.field.node.portfolio.field_mobile_image
+    - field.field.node.portfolio.field_name_of_the_website
+    - field.field.node.portfolio.field_tag_line_slogan_below
     - field.field.node.portfolio.field_tagline_slogan_above
-    - field.field.node.portfolio.field_technologies
+    - field.field.node.portfolio.field_technologies_used
     - field.field.node.portfolio.field_url
     - image.style.thumbnail
     - node.type.portfolio
@@ -45,16 +46,24 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_mobile_image_:
-    weight: 125
+  field_mobile_image:
+    weight: 131
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
-  field_tagline_slogan:
-    weight: 126
+  field_name_of_the_website:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tag_line_slogan_below:
+    weight: 129
     settings:
       size: 60
       placeholder: ''
@@ -69,8 +78,8 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_technologies:
-    weight: 124
+  field_technologies_used:
+    weight: 130
     settings:
       match_operator: CONTAINS
       size: 60

@@ -1,15 +1,15 @@
-uuid: a96c2f04-0c39-451c-8ce2-41d08850ef3c
+uuid: d37eeaeb-9d18-489c-ac4e-782851864ae2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tagline_slogan_below
+    - field.storage.node.field_name_of_the_website
     - node.type.portfolio
-id: node.portfolio.field_tagline_slogan_below
-field_name: field_tagline_slogan_below
+id: node.portfolio.field_name_of_the_website
+field_name: field_name_of_the_website
 entity_type: node
 bundle: portfolio
-label: 'Tagline/slogan below'
+label: 'Name of the website'
 description: ''
 required: false
 translatable: false

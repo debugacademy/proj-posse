@@ -11,7 +11,7 @@ id: node.portfolio.field_url
 field_name: field_url
 entity_type: node
 bundle: portfolio
-label: 'Website URL'
+label: 'Visit Website'
 description: ''
 required: false
 translatable: false

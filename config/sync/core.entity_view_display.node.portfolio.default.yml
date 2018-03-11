@@ -5,10 +5,11 @@ dependencies:
   config:
     - field.field.node.portfolio.body
     - field.field.node.portfolio.field_hero_image
-    - field.field.node.portfolio.field_mobile_image_
-    - field.field.node.portfolio.field_tagline_slogan
+    - field.field.node.portfolio.field_mobile_image
+    - field.field.node.portfolio.field_name_of_the_website
+    - field.field.node.portfolio.field_tag_line_slogan_below
     - field.field.node.portfolio.field_tagline_slogan_above
-    - field.field.node.portfolio.field_technologies
+    - field.field.node.portfolio.field_technologies_used
     - field.field.node.portfolio.field_url
     - node.type.portfolio
   module:
@@ -37,8 +38,8 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_mobile_image_:
-    weight: 105
+  field_mobile_image:
+    weight: 111
     label: above
     settings:
       image_style: ''
@@ -46,8 +47,16 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_tagline_slogan:
-    weight: 106
+  field_name_of_the_website:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tag_line_slogan_below:
+    weight: 109
     label: above
     settings:
       link_to_entity: false
@@ -62,8 +71,8 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_technologies:
-    weight: 104
+  field_technologies_used:
+    weight: 110
     label: above
     settings:
       link: true
@@ -85,4 +94,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  addtoany: true

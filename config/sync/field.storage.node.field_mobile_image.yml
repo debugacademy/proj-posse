@@ -1,4 +1,4 @@
-uuid: e7ca9dca-b266-42ce-85ea-481696520cc9
+uuid: 96cc3309-b1b9-4dda-8570-2d887773dc04
 langcode: en
 status: true
 dependencies:
@@ -14,8 +14,8 @@ settings:
   uri_scheme: public
   default_image:
     uuid: ''
-    alt: 'Mobile Image'
-    title: 'mobile image'
+    alt: ''
+    title: ''
     width: null
     height: null
   target_type: file

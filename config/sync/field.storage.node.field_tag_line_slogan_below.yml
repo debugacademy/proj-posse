@@ -1,11 +1,11 @@
-uuid: 3497b928-9230-4798-a64a-724bbb65d446
+uuid: 9614c02c-db85-448d-9922-c26e05820fc9
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_tagline_slogan_below
-field_name: field_tagline_slogan_below
+id: node.field_tag_line_slogan_below
+field_name: field_tag_line_slogan_below
 entity_type: node
 type: string
 settings:
