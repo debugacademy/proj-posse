@@ -1,0 +1,7 @@
+uuid: ecef93cb-6809-4323-8ed7-151503b902bc
+langcode: en
+status: true
+dependencies: {  }
+name: image_small_banner
+label: 'image small banner'
+effects: {  }
