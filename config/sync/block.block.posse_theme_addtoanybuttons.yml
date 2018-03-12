@@ -1,0 +1,20 @@
+uuid: f134befb-eb54-4aa6-968c-b921065cffe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - posse_theme
+id: posse_theme_addtoanybuttons
+theme: posse_theme
+region: footer
+weight: -6
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'AddToAny buttons'
+  provider: addtoany
+  label_display: '0'
+visibility: {  }
