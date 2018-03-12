@@ -1,0 +1,22 @@
+uuid: 01f5ab95-663f-48ba-8ad4-097f63dc4e91
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: Cm84_4t2lJbCwh2kk0GNSDvae4VE2aIFbAMCbHotdpw
+id: posse_theme_messages
+theme: posse_theme
+region: highlighted
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

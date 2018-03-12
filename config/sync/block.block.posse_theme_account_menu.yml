@@ -1,0 +1,26 @@
+uuid: 20c6b627-109c-4b77-8f61-74dd27948a69
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: 2z4h-Fx8TnOAr80iqAppn3AkybvpjC2BJEs8gWvchl4
+id: posse_theme_account_menu
+theme: posse_theme
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
