@@ -7,7 +7,7 @@ dependencies:
   theme:
     - posse_theme
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+  default_config_hash: _jE6EyI9SmT_N43GwWYH03hoQrBjIFnTfV2XUvV0rG4
 id: posse_theme_content
 theme: posse_theme
 region: content
