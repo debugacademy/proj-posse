@@ -1,0 +1,12 @@
+uuid: 86fcfb21-28d1-4274-8c1a-177cb08a7e53
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'contact form'
+recipients:
+  - mamesaye@hotmail.com
+reply: Thanks.
+weight: 0
+message: ''
+redirect: ''
