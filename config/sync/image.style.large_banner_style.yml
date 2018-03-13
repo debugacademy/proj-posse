@@ -1,12 +1,12 @@
-uuid: f5f4475c-cd3b-4370-879f-c12b752e4932
+uuid: 2a3dd46b-62a6-426f-be28-b16a3f066d47
 langcode: en
 status: true
 dependencies: {  }
-name: large_project_banner_style
+name: large_banner_style
 label: 'Large Banner Style'
 effects:
-  6dda4317-cd8b-48ba-8ee4-2dbcfff6b2c7:
-    uuid: 6dda4317-cd8b-48ba-8ee4-2dbcfff6b2c7
+  1909a725-45ed-4bfc-88c6-f19b533e02b6:
+    uuid: 1909a725-45ed-4bfc-88c6-f19b533e02b6
     id: image_scale_and_crop
     weight: 1
     data:

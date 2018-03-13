@@ -1,18 +1,17 @@
-uuid: af0cde26-76c3-4b7e-a669-b5a0011994c1
+uuid: 32fd48d8-b696-4795-b825-c9ffe7d89862
 langcode: en
 status: true
 dependencies:
   config:
     - views.view.portfolio
   module:
-    - system
     - views
   theme:
-    - bartik
-id: views_block__portfolio_block_1
-theme: bartik
+    - bootstrap
+id: views_block__portfolio_block_1_2
+theme: bootstrap
 region: content
-weight: -7
+weight: -5
 provider: null
 plugin: 'views_block:portfolio-block_1'
 settings:
@@ -22,9 +21,4 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
+visibility: {  }
