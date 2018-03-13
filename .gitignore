@@ -22,3 +22,5 @@
 
 # Ignore other files
 .DS_Store
+.sass-cache/
+*.css.map 
