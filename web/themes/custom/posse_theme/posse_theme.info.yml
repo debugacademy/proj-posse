@@ -22,3 +22,8 @@ regions:
 libraries:
     - 'posse_theme/global-styling'
     - 'posse_theme/fonts' 
+
+libraries-entend:
+  bootstrap/framework:
+    - posse_theme/framework
+    - 'posse_theme/fonts'    
