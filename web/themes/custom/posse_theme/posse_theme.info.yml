@@ -7,10 +7,9 @@ description: 'Uses the Bootstrap framework Sass source files and must be compile
 package: 'Bootstrap'
 
 regions:
-  topbar: 'Topbar'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Hero'
+  header: 'Topbar'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
