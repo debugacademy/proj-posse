@@ -2,7 +2,11 @@ framework:
   css:
     theme:
       css/style.css: {}
+      '//fonts.googleapis.com/css?family=Prompt:300italic,400,300,700|Open+Sans:300italic,400,300': { type: external, minified: true }
   js:
+    js/helpers.js: {}
+  dependencies:
+    - core/jquery
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}
     bootstrap/assets/javascripts/bootstrap/button.js: {}
@@ -15,3 +19,8 @@ framework:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+  fonts:
+    css:
+      theme:
+        '//fonts.googleapis.com/css?family=Prompt:300italic,400,300,700|Open+Sans:300italic,400,300': { type: external, minified: true }  
