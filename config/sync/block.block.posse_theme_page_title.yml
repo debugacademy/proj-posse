@@ -1,0 +1,20 @@
+uuid: 05843d8d-4244-4751-89e9-62d1542456da
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: posse_theme_page_title
+theme: posse_theme
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
