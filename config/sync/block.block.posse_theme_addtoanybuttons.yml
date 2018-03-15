@@ -6,6 +6,8 @@ dependencies:
     - addtoany
   theme:
     - posse_theme
+_core:
+  default_config_hash: Z38S23wkBI-y0HUKo0I3ydOXJCaXV5fw7kPhtUxgVxs
 id: posse_theme_addtoanybuttons
 theme: posse_theme
 region: footer

@@ -9,6 +9,8 @@ dependencies:
     - views
   theme:
     - posse_theme
+_core:
+  default_config_hash: Hk1MqIY2jR5qYs8mjsBlG1-rE5XugPsFBB6BiiZI9j0
 id: posse_theme_views_block__blog_posts_block_1
 theme: posse_theme
 region: content
