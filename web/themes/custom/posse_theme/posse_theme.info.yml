@@ -24,4 +24,4 @@ libraries-extend:
     - posse_theme/framework
 
 libraries:
-  - posse_theme/fonts
+  '- posse_theme/fonts'

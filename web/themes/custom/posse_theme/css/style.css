@@ -6356,4 +6356,7 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+body {
+  font-family: 'Prompt', Helvetica, Arial, sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
