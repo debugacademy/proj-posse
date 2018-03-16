@@ -1,0 +1,22 @@
+uuid: 4e1238a8-ee90-4354-b708-14c498192dc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: mMMpPZwpL5pZXmt5cxp-17LeV0IRvBzSODv5_fds4jQ
+id: posse_theme_powered
+theme: posse_theme
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

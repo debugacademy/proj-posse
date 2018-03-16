@@ -1,0 +1,22 @@
+uuid: f217c9af-70c2-4f89-938c-15e1160b6117
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: wQAsf93J4qgN64YACAR-P-xo_wYUnqQxV46rWDGq-JM
+id: posse_theme_content
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

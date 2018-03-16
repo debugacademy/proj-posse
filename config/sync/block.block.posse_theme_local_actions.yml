@@ -1,0 +1,20 @@
+uuid: f9d1469c-ca3d-4092-b95c-d5fb6a16db03
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: RnLd3SiHtMS10iZS9TJJXLQ7iG1T7JithfhDEm--oGE
+id: posse_theme_local_actions
+theme: posse_theme
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

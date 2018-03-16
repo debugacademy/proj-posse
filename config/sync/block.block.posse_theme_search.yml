@@ -1,0 +1,22 @@
+uuid: cce283d2-7f8d-42ed-bbfe-cfc90be1e832
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - posse_theme
+_core:
+  default_config_hash: ATFKrcbxNrG9XVyBjbyJzVoO29MJm4LA8UnAhkJIy4w
+id: posse_theme_search
+theme: posse_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
