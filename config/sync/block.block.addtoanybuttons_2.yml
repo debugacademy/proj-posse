@@ -1,4 +1,4 @@
-uuid: b16a00a7-3bd4-42a1-90f5-550b4dd2dfe5
+uuid: adcae98c-50cc-444b-ace5-3dc72c08afa1
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,10 @@ dependencies:
     - addtoany
   theme:
     - posse_theme
-id: posse_theme_addtoanybuttons
+id: addtoanybuttons_2
 theme: posse_theme
-region: navigation
-weight: -7
+region: footer
+weight: 0
 provider: null
 plugin: addtoany_block
 settings:
