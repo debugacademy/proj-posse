@@ -8,8 +8,8 @@ dependencies:
     - posse_theme
 id: sitebranding
 theme: posse_theme
-region: footer
-weight: 0
+region: navigation
+weight: -3
 provider: null
 plugin: system_branding_block
 settings:

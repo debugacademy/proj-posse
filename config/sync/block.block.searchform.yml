@@ -1,0 +1,20 @@
+uuid: 312d35d2-6af1-4e0d-90ab-12e1fadb5e7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - posse_theme
+id: searchform
+theme: posse_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }
