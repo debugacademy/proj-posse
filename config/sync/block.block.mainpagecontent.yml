@@ -1,0 +1,20 @@
+uuid: 4d2e3337-b52f-4608-8d22-1f95b807fb09
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - posse_theme
+id: mainpagecontent
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: visible
+visibility: {  }
