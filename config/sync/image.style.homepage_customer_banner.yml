@@ -1,0 +1,14 @@
+uuid: 91352eec-ed75-4283-ba96-d3f691a00901
+langcode: en
+status: true
+dependencies: {  }
+name: homepage_customer_banner
+label: 'Homepage customer banner'
+effects:
+  b63e667d-4e17-4e26-8f15-aa0034482de0:
+    uuid: b63e667d-4e17-4e26-8f15-aa0034482de0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 850
+      height: 445
