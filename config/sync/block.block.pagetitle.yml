@@ -1,0 +1,18 @@
+uuid: 8dfd9134-4849-4c57-8e5d-4bdca9f43834
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posse_theme
+id: pagetitle
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: visible
+visibility: {  }
