@@ -1,0 +1,22 @@
+uuid: 7c9699ba-f955-4cc2-b485-6c3ec8763437
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.portfoliogit
+  module:
+    - text
+id: node.portfoliogit.body
+field_name: body
+entity_type: node
+bundle: portfoliogit
+label: Description
+description: 'Describe the work you did on this project.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

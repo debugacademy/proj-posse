@@ -1,0 +1,18 @@
+uuid: 6c21d4f2-d7dd-4250-9b12-3da8d58ba245
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portfoliogit
+id: node.portfoliogit.title
+field_name: title
+entity_type: node
+bundle: portfoliogit
+label: 'Project Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

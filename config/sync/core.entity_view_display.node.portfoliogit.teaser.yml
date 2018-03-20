@@ -1,0 +1,29 @@
+uuid: 0d28fb82-ebbf-4f74-9839-f1a75d5fce3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfoliogit.body
+    - node.type.portfoliogit
+  module:
+    - text
+    - user
+id: node.portfoliogit.teaser
+targetEntityType: node
+bundle: portfoliogit
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
