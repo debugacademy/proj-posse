@@ -1,0 +1,19 @@
+uuid: ccd802a7-45aa-40d5-9611-568c7bb032a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_git
+    - node.type.bloggit
+id: node.bloggit.field_author_git
+field_name: field_author_git
+entity_type: node
+bundle: bloggit
+label: 'Blog Author'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

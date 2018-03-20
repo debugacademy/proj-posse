@@ -1,0 +1,22 @@
+uuid: b436b1a5-2711-4522-bab8-1fdcef111937
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bloggit
+  module:
+    - text
+id: node.bloggit.body
+field_name: body
+entity_type: node
+bundle: bloggit
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

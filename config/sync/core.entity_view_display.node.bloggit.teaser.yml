@@ -1,0 +1,29 @@
+uuid: 76d31a3a-b7c2-4453-a1de-f35de452f5a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bloggit.body
+    - node.type.bloggit
+  module:
+    - text
+    - user
+id: node.bloggit.teaser
+targetEntityType: node
+bundle: bloggit
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
