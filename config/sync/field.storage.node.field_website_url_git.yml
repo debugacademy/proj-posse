@@ -1,0 +1,19 @@
+uuid: 92aae12e-3e7a-44b0-bc54-d9ff6e51d5dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_website_url_git
+field_name: field_website_url_git
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

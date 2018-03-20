@@ -1,0 +1,23 @@
+uuid: d94fce6b-0108-4abe-9bcb-c1819ff2c4d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website_url_git
+    - node.type.portfoliogit
+  module:
+    - link
+id: node.portfoliogit.field_website_url_git
+field_name: field_website_url_git
+entity_type: node
+bundle: portfoliogit
+label: 'Website URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

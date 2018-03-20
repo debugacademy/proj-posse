@@ -1,0 +1,29 @@
+uuid: e0ce9a48-eb08-4f83-a80d-d0caf3141a16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologies_ref_git
+    - node.type.portfoliogit
+    - taxonomy.vocabulary.technologiess
+id: node.portfoliogit.field_technologies_ref_git
+field_name: field_technologies_ref_git
+entity_type: node
+bundle: portfoliogit
+label: Technologies
+description: 'What technologies were used to build this project? R.g. PHP, Drupal, etc.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      technologiess: technologiess
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

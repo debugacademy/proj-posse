@@ -1,0 +1,17 @@
+uuid: c454f362-1c0d-4e97-a634-9ec890ed66d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Portfolio
+type: portfoliogit
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
