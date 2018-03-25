@@ -1,0 +1,31 @@
+uuid: d1ef746c-2102-4517-bb2b-c756dcde1337
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db0affbd-dc2c-4402-9375-61de638a84be'
+  module:
+    - block_content
+    - system
+  theme:
+    - posse_theme
+id: services
+theme: posse_theme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:db0affbd-dc2c-4402-9375-61de638a84be'
+settings:
+  id: 'block_content:db0affbd-dc2c-4402-9375-61de638a84be'
+  label: Services
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
