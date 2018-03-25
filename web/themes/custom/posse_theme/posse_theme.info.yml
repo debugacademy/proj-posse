@@ -22,3 +22,7 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - posse_theme/framework
+
+libraries:
+  - 'posse_theme/fonts'
+
