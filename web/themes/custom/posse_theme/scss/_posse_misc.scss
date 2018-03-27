@@ -6,35 +6,66 @@
     background-color: $alternate-bg-color;
     text-align: center;
     h2 {
+        padding-top: 40px;
         color: $alternate-bg-heading;
         font-size: 1em;
     }
     h3 {
         font-size: 1.3em;
+        margin-top: 20px;
+        padding-bottom: 70px;
     }
     h4 {
         font-size: .90em;
+        padding-bottom: 7px;
+    }
+
+    span {
+        line-height: 25px;
     }
     h2, h3, h4 {
         text-transform: uppercase;
         font-family: sans-serif;
+        letter-spacing: 3px;
     }
     h3, h4, span {
         color: $alternate-bg-heading-secondary;
     }
+    ul {
+        padding-left: 5.7em;
+        padding-right: 5.7em;
+        margin-bottom: 10px;
+    }
     li {
         display: inline-block;
         width: 30%;
-        padding-top: 200px;
+        padding: 110px 10px 70px 10px;
+        margin: 0px 15px;
         &.web-development {
-            background: url('../images/computer.png') top middle;
+            background: url("../images/icon-comp.jpg") no-repeat center top;
         }
         &.app-development {
-            background: url('../images/computer.png') top middle;
+            background: url("../images/icon-phone.jpg") no-repeat center top;
         }
         &.seo-assistance {
-            background: url('../images/computer.png') top middle;
-        }
+            background: url("../images/icon-magnify.jpg") no-repeat center top;
+            }
     }
 
+    @media screen and (max-width: 1200px) {
+        body {
+          background-color: red;
+    } }
+    @media screen and (max-width: 780px) {
+        body {
+          background-color: orange;
+    } }
+    @media screen and (max-width: 550px) {
+        body {
+          background-color: yellow;
+    } }
+    @media screen and (max-width: 320px) {
+        body {
+          background-color: green;
+    } }
 }
