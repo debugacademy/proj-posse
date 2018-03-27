@@ -1,0 +1,40 @@
+/***** Homepage *****/
+
+/* Services Block */
+
+#block-services {
+    background-color: $alternate-bg-color;
+    text-align: center;
+    h2 {
+        color: $alternate-bg-heading;
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: .90em;
+    }
+    h2, h3, h4 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+    }
+    h3, h4, span {
+        color: $alternate-bg-heading-secondary;
+    }
+    li {
+        display: inline-block;
+        width: 30%;
+        padding-top: 200px;
+        &.web-development {
+            background: url('../images/computer.png') top middle;
+        }
+        &.app-development {
+            background: url('../images/computer.png') top middle;
+        }
+        &.seo-assistance {
+            background: url('../images/computer.png') top middle;
+        }
+    }
+
+}

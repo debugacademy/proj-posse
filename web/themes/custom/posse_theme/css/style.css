@@ -6356,4 +6356,32 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/***** Homepage *****/
+/* Services Block */
+#block-services {
+  background-color: #173243;
+  text-align: center; }
+  #block-services h2 {
+    color: #99e2b8;
+    font-size: 1em; }
+  #block-services h3 {
+    font-size: 1.3em; }
+  #block-services h4 {
+    font-size: .90em; }
+  #block-services h2, #block-services h3, #block-services h4 {
+    text-transform: uppercase;
+    font-family: sans-serif; }
+  #block-services h3, #block-services h4, #block-services span {
+    color: #ffffff; }
+  #block-services li {
+    display: inline-block;
+    width: 30%;
+    padding-top: 200px; }
+    #block-services li.web-development {
+      background: url("../images/computer.png") top middle; }
+    #block-services li.app-development {
+      background: url("../images/computer.png") top middle; }
+    #block-services li.seo-assistance {
+      background: url("../images/computer.png") top middle; }
+
 /*# sourceMappingURL=style.css.map */
