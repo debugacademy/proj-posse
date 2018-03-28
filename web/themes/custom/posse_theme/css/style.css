@@ -6356,4 +6356,19 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/**** Homepage ****/
+/* Services Block */
+#block-services {
+  background-color: #173243;
+  text-align: center; }
+  #block-services h2 {
+    color: green; }
+  #block-services h2, #block-services h3, #block-services h4 {
+    text-transform: uppercase; }
+  #block-services h3, #block-services h4, #block-services span {
+    color: #fff; }
+  #block-services li {
+    display: inline-block;
+    width: 30%; }
+
 /*# sourceMappingURL=style.css.map */
