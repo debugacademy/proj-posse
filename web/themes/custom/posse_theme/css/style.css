@@ -6395,17 +6395,19 @@ p:last-child,
       background: url("../images/icon-phone.jpg") no-repeat center top; }
     #block-services li.seo-assistance {
       background: url("../images/icon-magnify.jpg") no-repeat center top; }
-  @media screen and (max-width: 960px) {
-    #block-services body {
-      background-color: red; } }
-  @media screen and (max-width: 768px) {
-    #block-services body {
-      background-color: orange; } }
-  @media screen and (max-width: 550px) {
-    #block-services body {
-      background-color: yellow; } }
-  @media screen and (max-width: 320px) {
-    #block-services body {
-      background-color: green; } }
+  @media screen and (max-width: 993px) {
+    #block-services ul {
+      padding-left: 0em;
+      padding-right: 0em; }
+    #block-services li {
+      padding: 110px 0px 70px 0px; } }
+  @media screen and (max-width: 630px) {
+    #block-services li {
+      width: 37%; } }
+  @media screen and (max-width: 560px) {
+    #block-services h3 {
+      font-size: 1.1em; }
+    #block-services li {
+      width: 60%; } }
 
 /*# sourceMappingURL=style.css.map */
