@@ -1,4 +1,4 @@
-uuid: 20e2e624-a360-426b-bd4b-7d2ac405e4cb
+uuid: cce283d2-7f8d-42ed-bbfe-cfc90be1e832
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - posse_theme
 _core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+  default_config_hash: ATFKrcbxNrG9XVyBjbyJzVoO29MJm4LA8UnAhkJIy4w
 id: posse_theme_search
 theme: posse_theme
 region: sidebar_first

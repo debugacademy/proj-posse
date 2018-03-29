@@ -1,4 +1,4 @@
-uuid: 56e0c56a-0053-47ab-a6ac-e49911aeea4e
+uuid: 1b9b061b-9fdc-4e00-895c-b2b692119891
 langcode: en
 status: true
 dependencies:
@@ -22,7 +22,6 @@ content:
     weight: 100
     region: content
 hidden:
-  addtoany: true
   body: true
   comment: true
   field_image: true
