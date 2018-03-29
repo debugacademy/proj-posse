@@ -1,4 +1,4 @@
-uuid: 99997c3f-8d48-494c-8d50-fa6eb19f5fe9
+uuid: a86cafa7-8a59-4a63-b314-9bca9938d350
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - posse_theme
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+  default_config_hash: dsE2eZu-6oGqPQeqXQAMIelYxvB0CjxkafVEatH537k
 id: posse_theme_branding
 theme: posse_theme
-region: header
-weight: -7
+region: navigation
+weight: -8
 provider: null
 plugin: system_branding_block
 settings:

@@ -1,4 +1,4 @@
-uuid: b3c6fff1-1332-4e86-82cb-54434509ab91
+uuid: 28e80f4f-9bcd-4892-b210-b91c174106ec
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: bartik_messages
 theme: bartik
 region: highlighted
-weight: -7
+weight: 0
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,15 +1,15 @@
-uuid: 9dd719bc-c9a6-4873-bddd-5ed487534867
+uuid: f9d1469c-ca3d-4092-b95c-d5fb6a16db03
 langcode: en
 status: true
 dependencies:
   theme:
     - posse_theme
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+  default_config_hash: RnLd3SiHtMS10iZS9TJJXLQ7iG1T7JithfhDEm--oGE
 id: posse_theme_local_actions
 theme: posse_theme
 region: content
-weight: -8
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:
