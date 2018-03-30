@@ -24,8 +24,8 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings: {  }
         components:
-          0df4b355-4ad9-4bd0-a8eb-4ec385460431:
-            uuid: 0df4b355-4ad9-4bd0-a8eb-4ec385460431
+          38e2a75c-50a3-4b06-9dc3-07995209ecba:
+            uuid: 38e2a75c-50a3-4b06-9dc3-07995209ecba
             region: content
             configuration:
               id: 'field_block:node:article:field_image'
@@ -41,8 +41,8 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 0
-          e47054ed-135f-4eed-a82b-78fbd27cf0cc:
-            uuid: e47054ed-135f-4eed-a82b-78fbd27cf0cc
+          e9fea63e-e69a-4201-8fa6-1ab31860d13f:
+            uuid: e9fea63e-e69a-4201-8fa6-1ab31860d13f
             region: content
             configuration:
               id: 'field_block:node:article:body'
@@ -56,8 +56,8 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 1
-          3238c413-fab1-4fcf-a089-3fac98ee5e21:
-            uuid: 3238c413-fab1-4fcf-a089-3fac98ee5e21
+          fa110161-81c6-49f3-9853-0226c0915251:
+            uuid: fa110161-81c6-49f3-9853-0226c0915251
             region: content
             configuration:
               id: 'field_block:node:article:field_tags'
@@ -72,8 +72,8 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 2
-          fc6b8305-9b10-4961-87b2-195b0f7a2f50:
-            uuid: fc6b8305-9b10-4961-87b2-195b0f7a2f50
+          cfdaf289-cd9b-46a4-abda-47fc3c2849b2:
+            uuid: cfdaf289-cd9b-46a4-abda-47fc3c2849b2
             region: content
             configuration:
               id: 'field_block:node:article:comment'

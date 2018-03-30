@@ -1,23 +1,27 @@
-uuid: 21795196-4448-4685-8565-a613077f3483
+uuid: 351190a5-c919-4bdc-96a2-583b74d11934
 langcode: en
 status: false
 dependencies:
+  config:
+    - views.view.blog_posts
   module:
-    - posse_dc
     - system
+    - views
   theme:
     - posse_theme
-id: servicesblock
+id: posse_theme_views_block__blog_posts_block_1
 theme: posse_theme
 region: content
 weight: 0
 provider: null
-plugin: services_block
+plugin: 'views_block:blog_posts-block_1'
 settings:
-  id: services_block
-  label: 'Services block'
-  provider: posse_dc
+  id: 'views_block:blog_posts-block_1'
+  label: ''
+  provider: views
   label_display: visible
+  views_label: ''
+  items_per_page: none
 visibility:
   request_path:
     id: request_path

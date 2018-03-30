@@ -20,8 +20,8 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings: {  }
         components:
-          b75e039f-dff2-496f-91a6-c390aa46aecc:
-            uuid: b75e039f-dff2-496f-91a6-c390aa46aecc
+          d07c24ec-676f-4fb8-ae9f-f0af7a9b56d9:
+            uuid: d07c24ec-676f-4fb8-ae9f-f0af7a9b56d9
             region: content
             configuration:
               id: 'field_block:node:blog:body'
@@ -35,8 +35,8 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 0
-          7cf04ae4-957e-4ede-918e-50070e2a0514:
-            uuid: 7cf04ae4-957e-4ede-918e-50070e2a0514
+          1b0b8359-79a3-46c8-98bc-cb01b46cceaa:
+            uuid: 1b0b8359-79a3-46c8-98bc-cb01b46cceaa
             region: content
             configuration:
               id: 'field_block:node:blog:field_blog_author'
@@ -51,8 +51,8 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 1
-          73ec6d4a-5547-4aaf-aef9-e7b5f1faa3ae:
-            uuid: 73ec6d4a-5547-4aaf-aef9-e7b5f1faa3ae
+          8c7c4b36-77c2-49d3-8a51-832091f3f150:
+            uuid: 8c7c4b36-77c2-49d3-8a51-832091f3f150
             region: content
             configuration:
               id: 'field_block:node:blog:field_blog_image'

@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
     - node.type.page
   module:
     - layout_builder
@@ -18,8 +17,8 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings: {  }
         components:
-          60554db1-14a2-4586-925d-6ac3ea2d3a9e:
-            uuid: 60554db1-14a2-4586-925d-6ac3ea2d3a9e
+          8a916252-fdd6-4769-9846-17f2144e928d:
+            uuid: 8a916252-fdd6-4769-9846-17f2144e928d
             region: content
             configuration:
               id: 'field_block:node:page:body'
@@ -58,5 +57,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  layout_builder__layout: true
+hidden: {  }

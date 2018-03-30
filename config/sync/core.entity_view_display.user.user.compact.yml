@@ -18,8 +18,8 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings: {  }
         components:
-          b10fb6e8-314d-4e44-b6b9-190bf2663292:
-            uuid: b10fb6e8-314d-4e44-b6b9-190bf2663292
+          db818193-e6c3-4082-a2a8-e385a585d64a:
+            uuid: db818193-e6c3-4082-a2a8-e385a585d64a
             region: content
             configuration:
               id: 'field_block:user:user:user_picture'
