@@ -19,8 +19,8 @@ class ServicesBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['services_block']['#markup'] = "Copyright Proj POSSE "  . date("Y");
-
+    $build['services_block']['#markup'] = "Copyright Proj POSSE "  . 
+    	date("Y");
 
     return $build;
   }
