@@ -9,8 +9,65 @@ dependencies:
     - node.type.blog
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          b75e039f-dff2-496f-91a6-c390aa46aecc:
+            uuid: b75e039f-dff2-496f-91a6-c390aa46aecc
+            region: content
+            configuration:
+              id: 'field_block:node:blog:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          7cf04ae4-957e-4ede-918e-50070e2a0514:
+            uuid: 7cf04ae4-957e-4ede-918e-50070e2a0514
+            region: content
+            configuration:
+              id: 'field_block:node:blog:field_blog_author'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          73ec6d4a-5547-4aaf-aef9-e7b5f1faa3ae:
+            uuid: 73ec6d4a-5547-4aaf-aef9-e7b5f1faa3ae
+            region: content
+            configuration:
+              id: 'field_block:node:blog:field_blog_image'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
 id: node.blog.default
 targetEntityType: node
 bundle: blog
@@ -43,5 +100,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true

@@ -13,9 +13,135 @@ dependencies:
     - node.type.portfolio
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - link
     - text
     - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          f732dd07-4785-4f82-8ad4-d7dbaeed80fb:
+            uuid: f732dd07-4785-4f82-8ad4-d7dbaeed80fb
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          c1bed4f4-76c5-44ee-847a-bd36332e9a48:
+            uuid: c1bed4f4-76c5-44ee-847a-bd36332e9a48
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_hero_image'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          91f56105-f931-4668-944d-9a852dcd948e:
+            uuid: 91f56105-f931-4668-944d-9a852dcd948e
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_url'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+                type: link
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
+          0ef3fbcb-dd3a-4e01-a30b-63867028e061:
+            uuid: 0ef3fbcb-dd3a-4e01-a30b-63867028e061
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_technologies'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 3
+          9cb148bf-33b1-4455-b92f-931662cc7fc6:
+            uuid: 9cb148bf-33b1-4455-b92f-931662cc7fc6
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_mobile_image_'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 4
+          059c3aac-2a40-4258-a3a7-bda45b14ab97:
+            uuid: 059c3aac-2a40-4258-a3a7-bda45b14ab97
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 5
+          25851597-d1ef-4bbb-8108-8ee20e74dd8e:
+            uuid: 25851597-d1ef-4bbb-8108-8ee20e74dd8e
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan_above'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 6
 id: node.portfolio.default
 targetEntityType: node
 bundle: portfolio
@@ -85,5 +211,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
