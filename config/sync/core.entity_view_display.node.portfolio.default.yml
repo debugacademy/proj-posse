@@ -13,9 +13,135 @@ dependencies:
     - node.type.portfolio
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - link
     - text
     - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          227884a6-9937-4257-b21f-0af9c0860e83:
+            uuid: 227884a6-9937-4257-b21f-0af9c0860e83
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          258bc297-847b-44c0-95ec-c6b92d0f3dc1:
+            uuid: 258bc297-847b-44c0-95ec-c6b92d0f3dc1
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_hero_image'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          a4e08fcc-0eed-4fdb-9434-19773c3081a1:
+            uuid: a4e08fcc-0eed-4fdb-9434-19773c3081a1
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_url'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+                type: link
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
+          2808588d-f1f4-453d-9c66-f912608904a5:
+            uuid: 2808588d-f1f4-453d-9c66-f912608904a5
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_technologies'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 3
+          eef2d035-85d0-4439-9c8c-90c854f47bd6:
+            uuid: eef2d035-85d0-4439-9c8c-90c854f47bd6
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_mobile_image_'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 4
+          ece7619f-1885-418d-ae9d-41fdd80d350f:
+            uuid: ece7619f-1885-418d-ae9d-41fdd80d350f
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 5
+          a7153b3d-ab9c-4128-9594-8ceb03515948:
+            uuid: a7153b3d-ab9c-4128-9594-8ceb03515948
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan_above'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 6
 id: node.portfolio.default
 targetEntityType: node
 bundle: portfolio
@@ -85,5 +211,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
