@@ -1,0 +1,63 @@
+/***** Homepage *****/
+
+
+/* Meet the Dev Block */
+
+#block-meetthedev {
+    background-color: $main-bg-color;
+    height: 500px;
+}
+
+.title-name {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 187px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+        h2 {
+            font-size: 1rem;
+            color: $title-social-font;
+        }
+        h3 {
+            color: $title-social-font;
+        }
+}
+
+.dev-icons {
+    list-style: none;
+}
+
+p {
+    color: #52646c;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    line-height: 2.0;
+    word-spacing: 5px;
+}
+
+.footer-connect {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    .navbar navbar-expand-sm bg-light {
+        background-color: $main-bg-color;
+    }
+    .navbar-nav {
+        list-style-type: none;
+
+        li {
+            display: block;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .nav-link {
+        color: $title-social-font;
+            span {
+                color: red;
+        }
+    }
+}
