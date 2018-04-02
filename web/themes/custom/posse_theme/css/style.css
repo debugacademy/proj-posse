@@ -6356,4 +6356,52 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/***** Homepage *****/
+/* Meet the Dev Block */
+#block-meetthedev {
+  background-color: #f3f2f1;
+  height: 500px; }
+
+.title-name {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 187px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .title-name h2 {
+    font-size: 1rem;
+    color: #1e5574; }
+  .title-name h3 {
+    color: #1e5574; }
+
+.dev-icons {
+  list-style: none; }
+
+p {
+  color: #52646c;
+  font-size: 1.2em;
+  padding-top: 5px;
+  padding-right: 20%;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  line-height: 2.0;
+  word-spacing: 5px; }
+
+.footer-connect {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 1px; }
+  .footer-connect .navbar navbar-expand-sm bg-light {
+    background-color: #f3f2f1; }
+  .footer-connect .navbar-nav {
+    list-style-type: none; }
+    .footer-connect .navbar-nav li {
+      display: block;
+      padding-left: 30px;
+      padding-right: 30px; }
+  .footer-connect .nav-link {
+    color: #1e5574; }
+    .footer-connect .nav-link span {
+      color: red; }
+
 /*# sourceMappingURL=style.css.map */
