@@ -5,59 +5,92 @@
 
 #block-meetthedev {
     background-color: $main-bg-color;
-    height: 500px;
+    height: 650px;
 }
 
-.title-name {
-    width: 300px;
-    margin-top: 30px;
-    margin-left: 187px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.top-image {
+    background: url("../images/coffee.jpg") left top no-repeat, url("../images/person.jpg") right top no-repeat, url("../images/puppy.jpg") right top no-repeat, url("../images/work.jpg") right top no-repeat, url("../images/camera.jpg") right top no-repeat;
+    display: inline-block;
+    background-size: 80%;
+    height: 210px;
+    width: 260px;
+}
+
+.name_icons {
+    width: 70%;
+    margin-left: 208px;
+    .title-name {
+        width: 355px;
+        float: left;
+        margin-top: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
         h2 {
-            font-size: 1rem;
-            color: $title-social-font;
+            font-size: 0.9rem;
+            color: #213646;
+            font-weight: 600;
+            margin-bottom: 0px;
         }
         h3 {
-            color: $title-social-font;
+            color: #215676;
+            width: 355px;
+            height: 60px;
+            p {
+                font-size: 1.7rem;
+                font-weight: 600;
+                letter-spacing: 7px;
+            }
         }
+    }
+    .dev-icons {
+        list-style: none;
+        display: inline-flex;
+        margin-top: 33px;
+        margin-bottom: 30px;
+        margin-left: 135px;
+        .icon {
+            padding: 0px 20px;
+        }
+    }
 }
 
-.dev-icons {
-    list-style: none;
-}
-
-p {
-    color: #52646c;
-    font-size: 1.2em;
-    padding-top: 5px;
-    padding-right: 20%;
-    padding-bottom: 20px;
-    padding-left: 20%;
+.body_text {
+    color: #5b686e;
+    font-size: 1em;
+    width: 710px;
+    height: 200px;
+    position: absolute;
+    margin-left: 208px;
+    text-align: justify;
     line-height: 2.0;
-    word-spacing: 5px;
+    word-spacing: -1px;
+}
+
+hr {
+    color: #98b4bf;
+    margin-top: 210px;
+    border: 1px solid;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .footer-connect {
     text-transform: uppercase;
+    font-weight: 600;
     font-family: sans-serif;
-    letter-spacing: 1px;
-    .navbar navbar-expand-sm bg-light {
-        background-color: $main-bg-color;
-    }
-    .navbar-nav {
-        list-style-type: none;
-
-        li {
-            display: block;
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-    }
-    .nav-link {
-        color: $title-social-font;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 15px;
+    margin-bottom: 20px;
+    .w3-bar {
+        font-size: .7rem;
+        margin-left: 120px;
+        a {
+            color: #215676;
+            padding:0px 40px;
             span {
-                color: red;
+                color: #ef807f;
+            }
         }
     }
 }

@@ -34,51 +34,38 @@
 
 {% block content %}
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <div class="top-image">
-        <img src="../images/coffee.jpg" alt="Hot Coffee">
-        <img src="/../images/person.jpg" alt="Male">
-        <img src="images/puppy.jpg" alt="Brown Puppy">
-        <img src="work.jpg" alt="Work Desk">
-        <img src="images/camera.jpg" alt="Vintage Camera">
+
     </div>
-    <div class="title-name">
-        <h2>Meet The Dev</h2>
-        <h3>{{ content }}</h3>
-    </div>
-    <div class="dev-icons">
-        <div style="font-size:4em; color:#98b4bf">
-            <i class="fab fa-angular"></i>
+    <div class="name_icons">
+        <div class="title-name">
+            <h2>Meet The Dev</h2>
+            <h3>{{ content }}</h3>
         </div>
-        <div style="font-size:4em; color:#98b4bf">
-            <i class="fab fa-drupal"></i>
-        </div>
-        <div style="font-size:4em; color:#98b4bf">
-            <i class="fab fa-wordpress"></i>
+        <div class="dev-icons">
+            <div class="icon" style="font-size:3em; color:#98b4bf">
+                <i class="fab fa-angular"></i>
+            </div>
+            <div class="icon" style="font-size:3em; color:#98b4bf">
+                <i class="fab fa-drupal"></i>
+            </div>
+            <div class="icon" style="font-size:3em; color:#98b4bf">
+                <i class="fab fa-wordpress"></i>
+            </div>
         </div>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Nunc convallis lectus non est condimentum, commodo mollis nulla lacinia.  Quisque id velit purus.  Phasellus sed metus malesuada, scelerisque arcu nec, vestibulum nulla. Vivamus risus justo, elementum nec purus ac, interdum imperdiet arcu. Proin saqittis luctus urna, at efficitur dui porttitor dignissim.  Quisque vitae molestie justo, consectetur efficitur metus.  Name eleifend nisi vitae elit consequat tempor.</p>
+    <p class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Nunc convallis lectus non est condimentum, commodo mollis nulla lacinia.  Quisque id velit purus.  Phasellus sed metus malesuada, scelerisque arcu nec, vestibulum nulla. Vivamus risus justo, elementum nec purus ac, interdum imperdiet arcu. Proin saqittis luctus urna, at efficitur dui porttitor dignissim.  Quisque vitae molestie justo, consectetur efficitur metus.  Name eleifend nisi vitae elit consequat tempor.</p>
+
+
     <div class="footer-connect">
-        <nav class="navbar navbar-expand-sm bg-light">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Facebook.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Twitter.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">LinkedInk.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Instagram.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><span>ReedRichard@mail.com</span></a>
-                </li>
-            </ul>
-        </nav>
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-button w3-hover-none">Facebook.</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none">Twitter.</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none">LinkedInk.</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none">Instagram.</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none "><span>ReedRichards@email.com</span></a>
+        </div>
     </div>
 
 {% endblock %}
