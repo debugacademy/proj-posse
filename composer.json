@@ -23,14 +23,14 @@
         "drupal/admin_toolbar": "^1",
         "drupal/bootstrap": "^3.10",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5",
+        "drupal/core": "~8.4",
         "drupal/default_content": "^1.0@alpha",
         "drupal/pathauto": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5"
+        "webflo/drupal-core-require-dev": "~8.4"
     },
     "conflict": {
         "drupal/drupal": "*"
