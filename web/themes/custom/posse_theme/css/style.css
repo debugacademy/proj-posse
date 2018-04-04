@@ -6356,4 +6356,12 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/***** Homepage *****/
+/* MeetTheDevBlock */
+#block-meetthedevblock {
+  font-size: .95em; }
+  #block-meetthedevblock h2.block-title {
+    font-size: 1.5em;
+    color: blue; }
+
 /*# sourceMappingURL=style.css.map */
