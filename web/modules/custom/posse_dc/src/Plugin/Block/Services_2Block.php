@@ -19,7 +19,7 @@ class Services_2Block extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['services_2block']['#markup'] = 'Implement Services_2Block. copyright Date("Y")';
+    $build['services_2block']['#markup'] = 'Implement Services_2Block. copyright proj-posse '. date(" d m Y");
 
     return $build;
   }
