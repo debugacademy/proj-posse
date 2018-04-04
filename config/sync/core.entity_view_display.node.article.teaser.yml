@@ -12,8 +12,66 @@ dependencies:
     - node.type.article
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          c8a40320-5fa6-446b-8460-47e9a035fa93:
+            uuid: c8a40320-5fa6-446b-8460-47e9a035fa93
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_image'
+              label_display: ''
+              formatter:
+                type: image
+                settings:
+                  image_style: medium
+                  image_link: content
+                third_party_settings: {  }
+                label: hidden
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          05f87f9d-b96d-4c66-9e8a-24b41e7c5eba:
+            uuid: 05f87f9d-b96d-4c66-9e8a-24b41e7c5eba
+            region: content
+            configuration:
+              id: 'field_block:node:article:body'
+              label_display: ''
+              formatter:
+                type: text_summary_or_trimmed
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+                label: hidden
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          3be7cc7f-965c-49d4-9ca3-3941e7bdc654:
+            uuid: 3be7cc7f-965c-49d4-9ca3-3941e7bdc654
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_tags'
+              label_display: ''
+              formatter:
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+                label: above
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
 _core:
   default_config_hash: 4NcL2hSQZBpJbYtNuh5jC6kyQTcAc1m5bQpTegEWEso
 id: node.article.teaser
@@ -54,7 +112,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   comment: true
-  field_image: true
-  field_tags: true
