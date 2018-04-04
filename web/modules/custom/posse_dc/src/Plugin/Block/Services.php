@@ -5,21 +5,21 @@ namespace Drupal\posse_dc\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 
 /**
- * Provides a 'ServicesBlock' block.
+ * Provides a 'Services' block.
  *
  * @Block(
  *  id = "services",
- *  admin_label = @Translation("Services block"),
+ *  admin_label = @Translation("Services"),
  * )
  */
-class ServicesBlock extends BlockBase {
+class Services extends BlockBase {
 
   /**
    * {@inheritdoc}
    */
   public function build() {
     $build = [];
-    $build['services']['#markup'] = 'Implement ServicesBlock.';
+    $build['services']['#markup'] = 'Services.';
 
     return $build;
   }
