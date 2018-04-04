@@ -1,0 +1,20 @@
+uuid: ed6b7831-e9d2-4a7f-adb2-39ab516a15aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+  theme:
+    - posse_theme
+id: meetthedevblock
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: meet_the_dev_block
+settings:
+  id: meet_the_dev_block
+  label: 'Meet the dev block'
+  provider: posse_dc
+  label_display: visible
+visibility: {  }
