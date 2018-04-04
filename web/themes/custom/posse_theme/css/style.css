@@ -6356,4 +6356,58 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/***** Homepage *****/
+/* Services Block */
+#block-services {
+  background-color: #173243;
+  text-align: center; }
+  #block-services h2 {
+    padding-top: 40px;
+    color: #99e2b8;
+    font-size: 1em; }
+  #block-services h3 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding-bottom: 70px; }
+  #block-services h4 {
+    font-size: .90em;
+    padding-bottom: 7px; }
+  #block-services span {
+    line-height: 25px; }
+  #block-services h2, #block-services h3, #block-services h4 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px; }
+  #block-services h3, #block-services h4, #block-services span {
+    color: #ffffff; }
+  #block-services ul {
+    padding-left: 5.7em;
+    padding-right: 5.7em;
+    margin-bottom: 10px; }
+  #block-services li {
+    display: inline-block;
+    width: 30%;
+    padding: 110px 10px 70px 10px;
+    margin: 0px 15px; }
+    #block-services li.web-development {
+      background: url("../images/icon-comp.jpg") no-repeat center top; }
+    #block-services li.app-development {
+      background: url("../images/icon-phone.jpg") no-repeat center top; }
+    #block-services li.seo-assistance {
+      background: url("../images/icon-magnify.jpg") no-repeat center top; }
+  @media screen and (max-width: 993px) {
+    #block-services ul {
+      padding-left: 0em;
+      padding-right: 0em; }
+    #block-services li {
+      padding: 110px 0px 70px 0px; } }
+  @media screen and (max-width: 630px) {
+    #block-services li {
+      width: 37%; } }
+  @media screen and (max-width: 560px) {
+    #block-services h3 {
+      font-size: 1.1em; }
+    #block-services li {
+      width: 60%; } }
+
 /*# sourceMappingURL=style.css.map */
