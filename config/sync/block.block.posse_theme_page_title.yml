@@ -9,7 +9,7 @@ _core:
 id: posse_theme_page_title
 theme: posse_theme
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
