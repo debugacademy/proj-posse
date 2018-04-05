@@ -1,0 +1,50 @@
+// Proj-Posse styling
+
+#block-meetthedevblock {
+  background-color: #F4F3F1;
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 40px;
+    padding-left: 20%;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 3em;
+    margin: 0;
+    color: $dark-font;
+    padding-left: 20%;
+  }
+  
+  p {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      width: 19.5%;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      
+      img {
+        width: 102%;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
