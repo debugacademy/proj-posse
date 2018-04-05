@@ -6,3 +6,8 @@
  *
  * Place your custom PHP code in this file.
  */
+
+function posse_theme_preprocess(&$variables, $hook) {
+  $variables['posse_theme_year'] = date("Y");
+  $variables['posse_theme_site_name'] = \Drupal::config('system.site')->get('name');
+}
