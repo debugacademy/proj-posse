@@ -1,0 +1,26 @@
+uuid: e35f210e-760b-4aa4-ada5-b4c0f0f46df1
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+    - system
+  theme:
+    - posse_theme
+id: services_2block
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: services_2block
+settings:
+  id: services_2block
+  label: Services_2block
+  provider: posse_dc
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
