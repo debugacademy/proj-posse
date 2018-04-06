@@ -34,11 +34,9 @@
             color: $title-social-font;
             width: 355px;
             height: 35px;
-            p {
-                font-size: 1.9rem;
-                font-weight: 600;
-                letter-spacing: 7px;
-            }
+            font-size: 1.9rem;
+            font-weight: 600;
+            letter-spacing: 7px;
         }
     }
     .dev-icons {
@@ -98,7 +96,7 @@
 
 /*--------1200--------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
     #block-meetthedev {
         height: 540px;
     }
@@ -117,9 +115,7 @@
             }
             h3 {
                 width: 295px;
-                p {
-                    font-size: 1.5rem;
-                }
+                font-size: 1.5rem;
             }
         }
         .dev-icons {
@@ -156,7 +152,7 @@
 
 /*---------991---------*/
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
     #block-meetthedev {
         height: 540px;
     }
@@ -176,10 +172,8 @@
             }
             h3 {
                 width: 240px;
-                p {
-                    font-size: 1.3rem;
-                    letter-spacing: 5px;
-                }
+                font-size: 1.3rem;
+                letter-spacing: 5px;
             }
         }
         .dev-icons {
@@ -210,6 +204,34 @@
             margin-left: 125px;
             a {
                 padding:0px 25px;
+            }
+        }
+    }
+}
+
+/*---------768---------*/
+
+@media screen and (max-width: 767px) {
+
+    .dev-icons {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    .body_text {
+        width: 428px;
+        height: 189px;
+        margin-left: 144px;
+        word-spacing: 1px;
+    }
+    .divider-line {
+        width: 71%;
+    }
+    .footer-connect {
+        .w3-bar {
+            margin-left: 94px;
+            a {
+                padding:0px 10px;
             }
         }
     }

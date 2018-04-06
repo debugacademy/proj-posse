@@ -6385,11 +6385,10 @@ p:last-child,
     .name_icons .title-name h3 {
       color: #004d6e;
       width: 355px;
-      height: 35px; }
-      .name_icons .title-name h3 p {
-        font-size: 1.9rem;
-        font-weight: 600;
-        letter-spacing: 7px; }
+      height: 35px;
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: 7px; }
   .name_icons .dev-icons {
     list-style: none;
     display: inline-flex;
@@ -6436,7 +6435,7 @@ p:last-child,
 
 /* ---------------------------Media-------------------------------*/
 /*--------1200--------*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   #block-meetthedev {
     height: 540px; }
 
@@ -6453,9 +6452,8 @@ p:last-child,
       .name_icons .title-name h2 {
         font-size: 0.8rem; }
       .name_icons .title-name h3 {
-        width: 295px; }
-        .name_icons .title-name h3 p {
-          font-size: 1.5rem; }
+        width: 295px;
+        font-size: 1.5rem; }
     .name_icons .dev-icons {
       margin-top: 25px;
       margin-left: 65px; }
@@ -6481,7 +6479,7 @@ p:last-child,
       .footer-connect .w3-bar a {
         padding: 0px 25px; } }
 /*---------991---------*/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
   #block-meetthedev {
     height: 540px; }
 
@@ -6499,10 +6497,9 @@ p:last-child,
       .name_icons .title-name h2 {
         font-size: 0.7rem; }
       .name_icons .title-name h3 {
-        width: 240px; }
-        .name_icons .title-name h3 p {
-          font-size: 1.3rem;
-          letter-spacing: 5px; }
+        width: 240px;
+        font-size: 1.3rem;
+        letter-spacing: 5px; }
     .name_icons .dev-icons {
       margin-top: 42px;
       margin-left: 55px; }
@@ -6528,5 +6525,24 @@ p:last-child,
       margin-left: 125px; }
       .footer-connect .w3-bar a {
         padding: 0px 25px; } }
+/*---------768---------*/
+@media screen and (max-width: 767px) {
+  .dev-icons {
+    margin-top: 24px;
+    margin-left: 20px; }
+
+  .body_text {
+    width: 428px;
+    height: 189px;
+    margin-left: 144px;
+    word-spacing: 1px; }
+
+  .divider-line {
+    width: 71%; }
+
+  .footer-connect .w3-bar {
+    margin-left: 94px; }
+    .footer-connect .w3-bar a {
+      padding: 0px 10px; } }
 
 /*# sourceMappingURL=style.css.map */
