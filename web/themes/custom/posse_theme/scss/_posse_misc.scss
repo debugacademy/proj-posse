@@ -1,0 +1,238 @@
+/***** Homepage *****/
+
+
+/* Meet the Dev Block */
+
+#block-meetthedev {
+    background-color: $main-bg-color;
+    height: 630px;
+}
+
+.top-image {
+    background: url("../images/Meet_Dev_Images.png") left top no-repeat;
+    background-size: 100%;
+    height: 215px;
+    width: 1142px;
+}
+
+.name_icons {
+    width: 62%;
+    margin-left: 231px;
+    .title-name {
+        width: 355px;
+        float: left;
+        margin-top: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        h2 {
+            font-size: 1rem;
+            color: #213646;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+        h3 {
+            color: $title-social-font;
+            width: 355px;
+            height: 35px;
+            font-size: 1.9rem;
+            font-weight: 600;
+            letter-spacing: 7px;
+        }
+    }
+    .dev-icons {
+        list-style: none;
+        display: inline-flex;
+        margin-top: 33px;
+        margin-bottom: 30px;
+        margin-left: 108px;
+        .icon {
+            padding: 0px 20px;
+        }
+    }
+}
+
+.body_text {
+    color: #5b686e;
+    font-size: .9em;
+    width: 680px;
+    height: 200px;
+    position: absolute;
+    margin-left: 232px;
+    text-align: justify;
+    line-height: 2.0;
+    word-spacing: 2px;
+}
+
+.divider-line {
+    position: absolute;
+    bottom: 60px;
+    width: 82%;
+    margin: 0px 100px;
+    .line {
+        border-top: 1px solid #98b4bf;
+    }
+}
+
+.footer-connect {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 30px;
+    .w3-bar {
+        font-size: .7rem;
+        margin-left: 148px;
+        a {
+            color: $title-social-font;
+            padding:0px 35px;
+            span {
+                color: #ef807f;
+            }
+        }
+    }
+}
+/* ---------------------------Media-------------------------------*/
+
+/*--------1200--------*/
+
+@media screen and (max-width: 1199px) {
+    #block-meetthedev {
+        height: 540px;
+    }
+    .top-image {
+        background-size: 101%;
+        height: 180px;
+        width: 940px;
+    }
+    .name_icons {
+        width: 63%;
+        margin-left: 193px;
+        .title-name {
+            width: 295px;
+            h2 {
+                font-size: 0.8rem;
+            }
+            h3 {
+                width: 295px;
+                font-size: 1.5rem;
+            }
+        }
+        .dev-icons {
+            margin-top: 25px;
+            margin-left: 65px;
+            .icon {
+                padding: 0px 15px;
+            }
+        }
+    }
+
+    .body_text {
+        font-size: 0.8em;
+        width: 561px;
+        height: 150px;
+        margin-left: 191px;
+        word-spacing: -1px;
+    }
+    .divider-line {
+        bottom: 45px;
+        width: 79%;
+    }
+    .footer-connect {
+        margin-bottom: -5px;
+        .w3-bar {
+            font-size: .6rem;
+            margin-left: 125px;
+            a {
+                padding:0px 25px;
+            }
+        }
+    }
+}
+
+/*---------991---------*/
+
+@media screen and (max-width: 990px) {
+    #block-meetthedev {
+        height: 540px;
+    }
+    .top-image {
+        background-size: 100%;
+        height: 136px;
+        width: 720px;
+    }
+    .name_icons {
+        width: 63%;
+        margin-left: 146px;
+        .title-name {
+            width: 240px;
+            letter-spacing: 4px;
+            h2 {
+                font-size: 0.7rem;
+            }
+            h3 {
+                width: 240px;
+                font-size: 1.3rem;
+                letter-spacing: 5px;
+            }
+        }
+        .dev-icons {
+            margin-top: 42px;
+            margin-left: 55px;
+            .icon {
+                font-size: 2em;
+                padding: 0px 10px;
+            }
+        }
+    }
+
+    .body_text {
+        font-size: 0.8em;
+        width: 561px;
+        height: 150px;
+        margin-left: 191px;
+        word-spacing: -1px;
+    }
+    .divider-line {
+        bottom: 45px;
+        width: 79%;
+    }
+    .footer-connect {
+        margin-bottom: -5px;
+        .w3-bar {
+            font-size: .6rem;
+            margin-left: 125px;
+            a {
+                padding:0px 25px;
+            }
+        }
+    }
+}
+
+/*---------768---------*/
+
+@media screen and (max-width: 767px) {
+
+    .dev-icons {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    .body_text {
+        width: 428px;
+        height: 189px;
+        margin-left: 144px;
+        word-spacing: 1px;
+    }
+    .divider-line {
+        width: 71%;
+    }
+    .footer-connect {
+        .w3-bar {
+            margin-left: 94px;
+            a {
+                padding:0px 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+uuid: ec4fdce9-2790-466b-8ec4-d75d80b2d3af
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_mobile_image_
+field_name: field_mobile_image_
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: edb9028d-2dc5-4aec-95c6-46e9fa9cb6f8
+    alt: 'Mobile Blog '
+    title: 'Mobile Image '
+    width: 350
+    height: 3978
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

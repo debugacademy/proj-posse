@@ -1,0 +1,30 @@
+uuid: 2ff7c0a8-e704-4113-a00c-3a469e1f569e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog_posts
+  module:
+    - system
+    - views
+  theme:
+    - posse_theme
+id: posse_theme_views_block__blog_posts_block_1
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:blog_posts-block_1'
+settings:
+  id: 'views_block:blog_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
