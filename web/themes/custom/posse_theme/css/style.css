@@ -5993,7 +5993,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
       opacity: 0; }
   .select-wrapper:after {
     color: #337ab7;
-    content: 'â¼';
+    content: '▼';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -6355,5 +6355,97 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+/* ============= Variable Definitions  =============  */
+/*  Color Definitions  */
+/* Colors tested and selected for WCAG AAA compliance */
+/* bkgrnd w/white text
+   text on white bkgrnd */
+/* bkgrnd w/white text
+   text on neutral color bkgrnd */
+/* text on neutral & light colors */
+/* text on med & drk colors */
+/* bkgrnd w/white text
+   NOT acceptable as text on med or drk bkgrnd */
+/* bkgrnd w/white text */
+/*  Typographic Styles  */
+/* ============= Global Definitions  =============  */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Prompt", Helvetica, Arial, sans-serif;
+  color: #3d4f57;
+  font-size: 16px;
+  font-weight: 200; }
+
+/* Color styles  */
+.light-background {
+  color: #bafffd; }
+
+.medium-background {
+  color: #005779; }
+
+.dark-background {
+  color: #173244; }
+
+/* Typographic styles
+   Font sizes based on a default of 16px */
+h2, h3, h4 {
+  font-family: "Prompt", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .5rem;
+  /*  px  */ }
+
+h2 {
+  font-size: 1.125em;
+  /* 18px */
+  color: #005779; }
+
+h3 {
+  font-size: 1.7em;
+  /* 27px */
+  color: #173244; }
+
+h4 {
+  font-size: 1em;
+  /* 16px */
+  color: #005779; }
+
+#wrapper {
+  width: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* ============= Homepage styles  =============  */
+#block-services {
+  background-color: #173244;
+  color: #FFF; }
+  #block-services h2 {
+    color: #bafffd;
+    margin-top: 40px; }
+  #block-services h3, #block-services h4 {
+    color: #FFF; }
+  #block-services h4 {
+    margin-bottom: 25px; }
+  #block-services ul {
+    display: block;
+    margin: 60px auto 70px auto;
+    padding: 0; }
+  #block-services li {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 35px; }
+  #block-services li:first-child {
+    margin-left: 1%; }
+  #block-services li:last-child {
+    margin-right: 1%; }
 
 /*# sourceMappingURL=style.css.map */

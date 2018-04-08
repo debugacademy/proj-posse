@@ -1,0 +1,110 @@
+/* ============= Variable Definitions  =============  */
+
+/*  Color Definitions  */
+/* Colors tested and selected for WCAG AAA compliance */
+$light-color: #FFF;
+$medium-color: #005779;     /* bkgrnd w/white text
+                               text on white bkgrnd */
+$dark-color: #173244;       /* bkgrnd w/white text
+                               text on neutral color bkgrnd */
+$neutral-color: #eae9e6;
+$dark-neutral-color: #3d4f57;  /* text on neutral & light colors */
+$light-highlight: #bafffd;  /* text on med & drk colors */
+
+$med-highlight: #a52c15;    /* bkgrnd w/white text
+                               NOT acceptable as text on med or drk bkgrnd */
+$dark-highlight: #102330 ;  /* bkgrnd w/white text */
+
+/*  Typographic Styles  */
+$primary-font-stack: 'Prompt', Helvetica, Arial, sans-serif;
+$secondary-font-stack: 'Roboto Condensed', Arial, sans-serif;
+
+/* ============= Global Definitions  =============  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font-stack;
+  color: $dark-neutral-color;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* Color styles  */
+.light-background  {
+  color: $light-highlight;
+}
+.medium-background {
+  color: $medium-color;
+}
+.dark-background {
+  color: $dark-color;
+}
+
+/* Typographic styles
+   Font sizes based on a default of 16px */
+h2, h3, h4 {
+  font-family: $primary-font-stack;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .5rem; /*  px  */
+}
+h2 {
+  font-size: 1.125em; /* 18px */
+  color: $medium-color;
+}
+h3 {
+  font-size: 1.7em; /* 27px */
+  color: $dark-color;
+}
+h4 {
+  font-size: 1em; /* 16px */
+  color: $medium-color;
+}
+
+#wrapper {
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ============= Homepage styles  =============  */
+
+#block-services {
+  background-color: $dark-color;
+  color: $light-color;
+  h2 {
+    color: $light-highlight;
+    margin-top: 40px;
+  }
+  h3, h4 {
+    color: $light-color;
+  }
+  h4 {
+    margin-bottom: 25px;
+  }
+  ul {
+    display: block;
+    margin: 60px auto 70px auto;
+    padding: 0;
+  }
+  li {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 35px;
+  }
+  li:first-child {
+    margin-left: 1%;
+  }
+  li:last-child {
+    margin-right: 1%;
+  }
+}
