@@ -1,0 +1,102 @@
+// ============= Variable Definitions  =============
+
+// Color Definitions
+// Colors tested and selected for WCAG AAA compliance
+$light-color: #FFF;             // used text on drk bkgrnd
+$medium-color: #005779;         // bkgrnd w/white text
+                                // text on white bkgrnd
+                                // used for bootstrap $brand-primary
+$dark-color: #173244;           // bkgrnd w/white text
+                                // text on neutral color bkgrnd
+$neutral-color: #eae9e6;
+$dark-neutral-color: #3d4f57;   // text on neutral & light colors
+                                // used for bootstrap $text-color
+$highlight-light: #bafffd;      // text on med & drk colors
+
+$highlight-med: #a52c15;        // bkgrnd w/white text
+                                // NOT acceptable as text on med or drk bkgrnd
+$highlight-dark: #102330 ;      // bkgrnd w/white text
+
+// Typographic
+$secondary-font-stack: 'Roboto Condensed', Arial, sans-serif;
+
+/* ============= Global Styles  =============  */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Color styles  */
+.light-background  {
+  color: $highlight-light;
+}
+.medium-background {
+  color: $medium-color;
+}
+.dark-background {
+  color: $dark-color;
+}
+
+/* Typographic styles
+   Font sizes based on a default of 16px
+   see default-variables & bootstrap variables */
+h2, h3, h4 {
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .5rem; /*  px  */
+}
+h2 {
+  color: $medium-color;
+}
+h3 {
+  color: $dark-color;
+}
+h4 {
+  color: $medium-color;
+}
+
+/* ============= Homepage styles  =============  */
+
+#block-services {
+  background-color: $dark-color;
+  color: $light-color;
+  h2 {
+    color: $highlight-light;
+    margin-top: 40px;
+  }
+  h3, h4 {
+    color: $light-color;
+  }
+  h4 {
+    margin-bottom: 25px;
+  }
+  ul {
+    display: block;
+    margin: 60px auto 70px auto;
+    padding: 0;
+  }
+  li {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 35px;
+  }
+  li:first-child {
+    margin-left: 1%;
+  }
+  li:last-child {
+    margin-right: 1%;
+  }
+  .seo-assistance {
+//     $icon-font-name;  @TODO
+
+  }
+}

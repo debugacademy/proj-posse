@@ -12,3 +12,25 @@
 
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+//== Colors
+//
+$brand-primary:          #005779; // uses proj-posse $medium-color
+                                  // $brand-primary also used for link color
+
+//** Background color for `<body>`.
+$body-bg:               #e4fffe;
+//** Global text color on `<body>`.
+$text-color:            #3d4f57;  // proj-posse $dark-neutral-color
+
+//== Typography
+//
+$font-size-base:          16px;
+// $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 1.125)); // ~18px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~27px
+$font-size-h4:            ceil(($font-size-base * 1)); // ~16px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    'Prompt', Helvetica, Arial, sans-serif;
+$headings-font-weight:    300;
