@@ -6356,4 +6356,40 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/*  homepage  */
+/* services block */
+#block-services-2 {
+  background-color: #173243;
+  text-align: center;
+  color: #ffffff; }
+  #block-services-2 h2 {
+    color: #99e2b8;
+    color: #99e2b8;
+    font-size: 1em;
+    font-family: sans-serif; }
+  #block-services-2 h3 {
+    font-size: 1.3em; }
+  #block-services-2 h4 {
+    font-size: .95em; }
+  #block-services-2 h2, #block-services-2 h3, #block-services-2 h4 {
+    text-transform: uppercase; }
+  #block-services-2 h3, #block-services-2 h4, #block-services-2 span {
+    color: ffffff; }
+  #block-services-2 li {
+    display: inline-block;
+    width: 30%;
+    padding-top: 175px; }
+    #block-services-2 li.web-development {
+      background-image: url("../images/icon-comp.gif");
+      background-repeat: no-repeat;
+      background-position: center center; }
+    #block-services-2 li.app-development {
+      background-image: url("../images/icon-phone.gif");
+      background-repeat: no-repeat;
+      background-position: center center; }
+    #block-services-2 li.seo-assistance {
+      background-image: url("../images/icon-magnify.gif");
+      background-repeat: no-repeat;
+      background-position: center center; }
+
 /*# sourceMappingURL=style.css.map */
