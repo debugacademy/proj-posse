@@ -6452,7 +6452,8 @@ p:last-child,
   height: 500px;
   width: 1140px;
   background-color: #1c3243;
-  display: inline-flex; }
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif; }
   .blog_section img {
     width: 50%; }
 
@@ -6469,13 +6470,16 @@ p:last-child,
 .mid_section span {
   color: #FFA500;
   font-size: 18px;
-  text-transform: uppercase; }
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; }
 
 .mid_section p {
   font-size: 40px;
   text-transform: uppercase;
-  padding: 10px 50px;
-  letter-spacing: 6px; }
+  padding: 10px 40px;
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif; }
 
 .top_section ul {
   list-style-type: none; }
@@ -6490,6 +6494,6 @@ p:last-child,
   letter-spacing: 8px; }
 
 .lower_section p span {
-  margin-bottom: 30px; }
+  margin-bottom: 18px; }
 
 /*# sourceMappingURL=style.css.map */
