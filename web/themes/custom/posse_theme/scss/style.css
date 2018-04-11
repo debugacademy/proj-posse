@@ -6359,67 +6359,46 @@ p:last-child,
 /* meet the dev */
 #block-meetthedev {
   background-color: #F4F3F1; }
-  #block-meetthedev h4 {
+  #block-meetthedev h3 {
     font-size: 1em;
     margin-bottom: 0;
     margin-top: 40px;
     padding-left: 20%;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    color: #5F6677;
-    font-weight: bold; }
-  #block-meetthedev h2 {
-    font-size: 2em;
+    text-transform: uppercase; }
+  #block-meetthedev h4 {
     margin: 0;
     color: #366A87;
     padding-left: 20%;
-    text-transform: uppercase;
-    padding-right: 30%; }
+    text-transform: uppercase; }
   #block-meetthedev p {
     text-align: justify;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 2.5em;
-    color: #317A93; }
-  #block-meetthedev .images {
-    display: inline-block; }
-  #block-meetthedev .content {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0px;
-    padding: 0px; }
-  #block-meetthedev .content span img {
-    width: 13vw;
-    margin: 0px;
-    padding: 20px 0 0 0; }
-  #block-meetthedev h2 img {
-    width: 3.5vw;
-    float: right;
-    vertical-align: top;
-    margin: 0px;
-    padding: 0px; }
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5em; }
   #block-meetthedev ul {
     list-style-type: none;
     text-align: center;
-    padding: 0;
-    margin: 0; }
-  #block-meetthedev .pad {
-    padding-left: 75px;
-    padding-bottom: 30px;
-    padding-top: 50px;
-    color: #366A87;
-    text-transform: uppercase;
-    font-weight: bold;
-    justify-content: center; }
+    padding: 0px;
+    margin: 0px; }
+  #block-meetthedev li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase; }
+  #block-meetthedev ul li img {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    width: 50%;
+    height: 50%; }
+  #block-meetthedev #content {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; }
   #block-meetthedev #red {
     color: #FAB1B1; }
-  #block-meetthedev hr {
-    border-top: 1px solid;
-    /* or bottom */
-    color: #366A87;
-    font-weight: bolder;
-    align: center; }
 
 /*# sourceMappingURL=style.css.map */

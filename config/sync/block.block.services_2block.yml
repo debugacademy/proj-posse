@@ -10,7 +10,7 @@ dependencies:
 id: services_2block
 theme: posse_theme
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: services_2block
 settings:

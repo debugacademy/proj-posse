@@ -17,7 +17,7 @@ settings:
   id: meet_the_dev_block
   label: 'Meet the Dev'
   provider: posse_dc
-  label_display: visible
+  label_display: '0'
 visibility:
   request_path:
     id: request_path

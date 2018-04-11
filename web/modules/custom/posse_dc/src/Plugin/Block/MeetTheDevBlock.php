@@ -19,7 +19,7 @@ class MeetTheDevBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['meet_the_dev_block']['#markup'] = 'Implement MeetTheDevBlock.';
+    $build['meet_the_dev_block']['#markup'] = '';
 
     return $build;
   }
