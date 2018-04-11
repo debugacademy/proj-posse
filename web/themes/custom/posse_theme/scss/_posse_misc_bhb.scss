@@ -11,7 +11,7 @@
         width: 50%;
     }
     .content_area {
-        width: 570px;
+        width: 50%;
         color: #fff;
         text-align: center;
         .top_area {
@@ -58,13 +58,93 @@
                 }
             }
         }
-
-
-
-
     }
+}
 
 
+/***** Media *****/
 
+@media screen and (max-width: 1200px) {
+    .blog_container .content_area .middle_area {
+        margin-top: 125px;
+        p {
+            padding: 10px 25px;
+        }
+    }
+    .footer_area {
+        margin-top: 30px;
+    }
+}
 
+@media screen and (max-width: 991px) {
+    .blog_container .content_area .top_area {
+        margin-left: 25px;
+        word-spacing: 42px;
+    }
+    .blog_container .content_area .middle_area {
+        p {
+            padding: 10px 0px;
+            font-size: 1.5em;
+        }
+    }
+    .blog_container .content_area .footer_area {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .blog_container .content_area .top_area {
+        margin-left: 0px;
+        word-spacing: 30px;
+        font-size: .7em;
+        ul li span {
+            padding: 8px 20px;
+        }
+    }
+    .blog_container .content_area .middle_area {
+        margin-top: 120px;
+        span {
+            margin-right: 13px;
+        }
+        p {
+            padding: 10px 0px;
+            font-size: 1.2em;
+        }
+    }
+    .blog_container .content_area .footer_area {
+        margin-top: -14px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .blog_container .content_area .top_area {
+        margin-top: 30px;
+        height: 70px;
+        ul li {
+            padding-top: 15px;
+            display: block;
+        }
+        ul li span {
+            padding: 8px 20px;
+            margin-left: 5px;
+        }
+    }
+    .blog_container .content_area .middle_area {
+        margin-top: 110px;
+        span {
+            margin-right: 3px;
+        }
+        p {
+            padding: 10px 11px;
+            font-size: 1em;
+            letter-spacing: 4px;
+        }
+    }
+    .blog_container .content_area .footer_area {
+        margin-top: -20px;
+        letter-spacing: 1px;
+        p {
+            word-spacing: 2px;
+        }
+    }
 }
