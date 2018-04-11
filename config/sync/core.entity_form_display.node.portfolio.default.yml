@@ -13,10 +13,16 @@ dependencies:
     - image.style.thumbnail
     - node.type.portfolio
   module:
+    - field_layout
     - image
+    - layout_discovery
     - link
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.portfolio.default
 targetEntityType: node
 bundle: portfolio

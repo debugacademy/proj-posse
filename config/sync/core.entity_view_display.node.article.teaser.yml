@@ -11,9 +11,71 @@ dependencies:
     - image.style.medium
     - node.type.article
   module:
+    - field_layout
     - image
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          f96119f1-f247-4e83-9f97-041e0a858aaa:
+            uuid: f96119f1-f247-4e83-9f97-041e0a858aaa
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_image'
+              label_display: ''
+              formatter:
+                type: image
+                settings:
+                  image_style: medium
+                  image_link: content
+                third_party_settings: {  }
+                label: hidden
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          3c22b677-d077-4255-9572-b105523fdd3e:
+            uuid: 3c22b677-d077-4255-9572-b105523fdd3e
+            region: content
+            configuration:
+              id: 'field_block:node:article:body'
+              label_display: ''
+              formatter:
+                type: text_summary_or_trimmed
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+                label: hidden
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          918852c5-0308-40ca-bca0-98b7e9d3ed03:
+            uuid: 918852c5-0308-40ca-bca0-98b7e9d3ed03
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_tags'
+              label_display: ''
+              formatter:
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+                label: above
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
 _core:
   default_config_hash: 4NcL2hSQZBpJbYtNuh5jC6kyQTcAc1m5bQpTegEWEso
 id: node.article.teaser
@@ -54,7 +116,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   comment: true
-  field_image: true
-  field_tags: true

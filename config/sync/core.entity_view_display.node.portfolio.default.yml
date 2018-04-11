@@ -12,10 +12,140 @@ dependencies:
     - field.field.node.portfolio.field_url
     - node.type.portfolio
   module:
+    - field_layout
     - image
+    - layout_builder
+    - layout_discovery
     - link
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          902eb84b-c453-42f4-92fc-15da2412d200:
+            uuid: 902eb84b-c453-42f4-92fc-15da2412d200
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          c3de5d4b-1cee-460e-bfd1-d7a7e8b09a5a:
+            uuid: c3de5d4b-1cee-460e-bfd1-d7a7e8b09a5a
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_hero_image'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          7cacefd9-0838-4207-bd5d-3a4f00781c0c:
+            uuid: 7cacefd9-0838-4207-bd5d-3a4f00781c0c
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_url'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+                type: link
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 2
+          d32c6c39-d47a-4674-a358-1692c071d60f:
+            uuid: d32c6c39-d47a-4674-a358-1692c071d60f
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_technologies'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 3
+          1e6d1aa7-47c7-40ba-957a-146bef97b03b:
+            uuid: 1e6d1aa7-47c7-40ba-957a-146bef97b03b
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_mobile_image_'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 4
+          8ea4b65d-8d1b-4f75-a4b2-3b01ef8ca1c0:
+            uuid: 8ea4b65d-8d1b-4f75-a4b2-3b01ef8ca1c0
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 5
+          f89de2fc-0068-4bab-a60a-a42b6f25e7a5:
+            uuid: f89de2fc-0068-4bab-a60a-a42b6f25e7a5
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_tagline_slogan_above'
+              label_display: ''
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 6
 id: node.portfolio.default
 targetEntityType: node
 bundle: portfolio
@@ -85,5 +215,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true

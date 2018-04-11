@@ -5,10 +5,41 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog.body
+    - field.field.node.blog.field_blog_author
+    - field.field.node.blog.field_blog_image
     - node.type.blog
   module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          240e2543-b052-4e85-aad9-08d64d1d5d05:
+            uuid: 240e2543-b052-4e85-aad9-08d64d1d5d05
+            region: content
+            configuration:
+              id: 'field_block:node:blog:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_summary_or_trimmed
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
 id: node.blog.teaser
 targetEntityType: node
 bundle: blog
@@ -25,6 +56,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
   field_blog_author: true

@@ -5,10 +5,45 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_hero_image
+    - field.field.node.portfolio.field_mobile_image_
+    - field.field.node.portfolio.field_tagline_slogan
+    - field.field.node.portfolio.field_tagline_slogan_above
+    - field.field.node.portfolio.field_technologies
+    - field.field.node.portfolio.field_url
     - node.type.portfolio
   module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          4d9a10fb-3ffc-4dc3-b59b-8e9bb63e2850:
+            uuid: 4d9a10fb-3ffc-4dc3-b59b-8e9bb63e2850
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_summary_or_trimmed
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
 id: node.portfolio.teaser
 targetEntityType: node
 bundle: portfolio
@@ -25,6 +60,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
   field_hero_image: true
