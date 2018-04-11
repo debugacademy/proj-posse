@@ -1,0 +1,26 @@
+uuid: 682dfe9c-8ca1-41d1-9a65-a872fa3aa5bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+    - system
+  theme:
+    - posse_theme
+id: meetthedev
+theme: posse_theme
+region: content
+weight: -9
+provider: null
+plugin: meet_the_dev_block
+settings:
+  id: meet_the_dev_block
+  label: 'Meet the Dev'
+  provider: posse_dc
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
