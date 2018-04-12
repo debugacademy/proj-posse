@@ -6410,6 +6410,69 @@ p:last-child,
     #block-services li {
       width: 60%; } }
 
+/*********** footer ***********************/
+/*** Footer ***/
+.region-footer {
+  text-align: center;
+  background-color: #102330;
+  color: #ffffff; }
+  .region-footer .logo {
+    display: none; }
+  .region-footer .name.navbar-brand {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer .name.navbar-brand {
+        float: left;
+        width: 16.6666666667%; } }
+    @media (min-width: 992px) {
+      .region-footer .name.navbar-brand {
+        margin-left: 8.3333333333%; } }
+  .region-footer #block-posse-theme-addtoanybuttons {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer #block-posse-theme-addtoanybuttons {
+        float: left;
+        width: 16.6666666667%; } }
+    @media (min-width: 992px) {
+      .region-footer #block-posse-theme-addtoanybuttons {
+        margin-left: 8.3333333333%; } }
+  .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+        margin-left: 8.3333333333%; } }
+    @media (min-width: 992px) {
+      .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+        float: left;
+        width: 33.3333333333%; } }
+
 #block-meetthedevblock {
   background-color: #F4F3F1; }
   #block-meetthedevblock h2 {

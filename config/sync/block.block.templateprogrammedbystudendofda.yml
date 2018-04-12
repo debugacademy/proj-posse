@@ -1,0 +1,25 @@
+uuid: d7f5ed54-5ab0-40c8-97fa-f706f1d36fab
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:558ce8c4-96ea-4624-bee2-46a74548a25f'
+  module:
+    - block_content
+  theme:
+    - posse_theme
+id: templateprogrammedbystudendofda
+theme: posse_theme
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:558ce8c4-96ea-4624-bee2-46a74548a25f'
+settings:
+  id: 'block_content:558ce8c4-96ea-4624-bee2-46a74548a25f'
+  label: 'template programmed by studend of DA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
