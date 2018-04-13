@@ -47,14 +47,15 @@
  */
 #}
 {% block content %}
-  <ul>
-    <li><img src="{{ base_path ~ directory }}/images/coffee.PNG" alt="coffee"></li>
-    <li><img src="{{ base_path ~ directory }}/images/profile.PNG" alt="profile"></li>
-    <li><img src="{{ base_path ~ directory }}/images/dog.PNG" alt="dog"></li>
-    <li><img src="{{ base_path ~ directory }}/images/computer.PNG" alt="computer"></li>
-    <li><img src="{{ base_path ~ directory }}/images/camera.PNG" alt="camera"></li>
-  </ul>
-  <h2>Meet the Dev</h2>
-  <h3>Omar Abed</h3>
+  <div class="container-flex">
+    <img style="width: 20%;" src="{{ base_path ~ directory }}/images/coffee.jpg" alt="coffee"><img  style="width: 20%;" src="{{ base_path ~ directory }}/images/profile.jpg" alt="photo of Reed Richards"><img  style="width: 20%;" src="{{ base_path ~ directory }}/images/bostonbullterrier.jpg" alt="dog"><img style="width: 20%;" src="{{ base_path ~ directory }}/images/computer.jpg" alt="computer"><img style="width: 20%;" src="{{ base_path ~ directory }}/images/camera.jpg" alt="camera"></div>
+  <div class="meetthedev-titles">
+    <h2>Meet the Dev</h2>
+    <h3>Reed Richards</h3>
+  </div>
+  <div class="meetthedev-icons">
+    <img src="{{ base_path ~ directory }}/images/drupal7.png">
+  </div>  
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 {% endblock %}

@@ -1,0 +1,31 @@
+uuid: 339f43c9-a582-4d5b-9915-7505e2ed547d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d103fbad-0f65-440d-8010-c4ea79192ceb'
+  module:
+    - block_content
+    - system
+  theme:
+    - posse_theme
+id: templateprogrammedbythestudentsofthecareerchangingdebugacademy
+theme: posse_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:d103fbad-0f65-440d-8010-c4ea79192ceb'
+settings:
+  id: 'block_content:d103fbad-0f65-440d-8010-c4ea79192ceb'
+  label: 'Template programmed by the students of the career-changing Debug Academy'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

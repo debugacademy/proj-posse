@@ -19,7 +19,7 @@ class Services extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['services']['#markup'] = 'Services.';
+    $build['services']['#markup'] = '<h3>Improve Your Online Presence</h3>';
 
     return $build;
   }

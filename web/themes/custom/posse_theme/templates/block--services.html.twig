@@ -1,5 +1,4 @@
 {% extends "block.html.twig" %}
-
 {#
 /**
  * @file
@@ -49,19 +48,24 @@
 #}
 
 {% block content %}
-    <h3>{{ content }}</h3>
+    {{ content }}
     <ul>
-        <li class="web-development">
+        <li class="service web-development">
+            <img src="{{ base_path ~ directory }}/images/icon-computer.png" alt="Computer icon">
             <h4>Web Development</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
+            <span>Ergo opifex plus sibi proponet ad formarum quam civis excellens ad factorum pulchritudinem? Honesta oratio, Socratica, Platonis etiam.</span>
         </li>
-        <li class="app-development">
+        <li class="service app-development">
+            <img src="{{ base_path ~ directory }}/images/icon-mobile-device.png" alt="Mobile device icon">
             <h4>App Development</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
+            <span> Oculorum, inquit Plato, est in nobis sensus acerrimus, quibus sapientiam non cernimus.</span>
         </li>
-        <li class="seo-assistance">
+        <li class="service seo-assistance">
+            <img src="{{ base_path ~ directory }}/images/icon-magnifier.png" alt="Magnifier icon">
             <h4>SEO Assistance</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
+            <span>Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Hanc ergo intuens debet institutum illud quasi signum absolvere.</span>
         </li>
     </ul>
 {% endblock %}
+
+
