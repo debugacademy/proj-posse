@@ -6381,29 +6381,16 @@ p:last-child,
   #block-services h3, #block-services h4, #block-services span {
     color: #ffffff; }
   #block-services ul {
-    padding-left: 5.7em;
-    padding-right: 5.7em;
     margin-bottom: 10px; }
   #block-services li {
-    display: inline-block;
-    width: 30%;
-    padding: 110px 10px 70px 10px;
-    margin: 0px 15px; }
+    padding-top: 110px;
+    padding-bottom: 70px; }
     #block-services li.web-development {
       background: url("../images/icon-comp.jpg") no-repeat center top; }
     #block-services li.app-development {
       background: url("../images/icon-phone.jpg") no-repeat center top; }
     #block-services li.seo-assistance {
       background: url("../images/icon-magnify.jpg") no-repeat center top; }
-  @media screen and (max-width: 993px) {
-    #block-services ul {
-      padding-left: 0em;
-      padding-right: 0em; }
-    #block-services li {
-      padding: 110px 0px 70px 0px; } }
-  @media screen and (max-width: 630px) {
-    #block-services li {
-      width: 37%; } }
   @media screen and (max-width: 560px) {
     #block-services h3 {
       font-size: 1.1em; }
