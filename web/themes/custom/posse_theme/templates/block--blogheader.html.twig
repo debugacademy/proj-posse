@@ -1,5 +1,4 @@
 {% extends "block.html.twig" %}
-
 {#
 /**
  * @file
@@ -47,23 +46,32 @@
  * @see template_process()
  */
 #}
+  {% block content %}
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-{% block content %}
-    <h3>{{ content }}</h3>
-    <div class="col-sm-1"></div>
-    <ul class="col-xs-12 col-offset-sm-1 col-sm-10 row">
-        <li class="web-development col-xs-12 col-sm-6 col-md-4">
-            <h4>Web Development</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
-        </li>
-        <li class="app-development col-xs-12 col-sm-6 col-md-4">
-            <h4>App Development</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
-        </li> 
-        <div class="col-sm-3"></div>
-        <li class="seo-assistance col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
-            <h4>SEO Assistance</h4>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nunc convallis lectus non est condimentum, commodo mollis.</span>
-        </li>
-    </ul>
-{% endblock %}
+    <div class="blog_section">
+      <img src="{{ base_path ~ directory }}/images/blog-donut.png" alt="donutpic">
+        <div class="content_section">
+           <div class="top_section">
+            <ul>
+              <li>Work</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>  
+
+        <div class="mid_section">
+          <span>Blog</span>
+          <p>New Site Launch: Sullivan Street Bakery</p>
+        </div>
+
+        <div class="lower_section">
+          <p>By | <span>Reed Richards</span></p>
+        </div>
+      </div>         
+    </div>
+
+  {% endblock %}
+
+
+       

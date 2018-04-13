@@ -32,15 +32,12 @@
         color: $alternate-bg-heading-secondary;
     }
     ul {
-        padding-left: 5.7em;
-        padding-right: 5.7em;
+    
         margin-bottom: 10px;
     }
     li {
-        display: inline-block;
-        width: 30%;
-        padding: 110px 10px 70px 10px;
-        margin: 0px 15px;
+        padding-top: 110px;
+        padding-bottom: 70px;
         &.web-development {
             background: url("../images/icon-comp.jpg") no-repeat center top;
         }
@@ -52,26 +49,37 @@
             }
     }
 
-    @media screen and (max-width: 993px) {
-        ul {
-            padding-left: 0em;
-            padding-right: 0em;
-        }
-        li {
-            padding: 110px 0px 70px 0px;
-        }
-    }
-    @media screen and (max-width: 630px) {
-        li {
-            width: 37%;
-        }
-    }
+    
     @media screen and (max-width: 560px) {
         h3 {
             font-size: 1.1em;
         }
-        li {
-            width: 60%;
-        }
     }
+}
+/*** Footer ***/
+.region-footer {
+    text-align: center;
+/*   
+    background-color: #102330;
+    color: #ffffff;
+*/
+    .logo {
+        display: none;
+    }
+    .name.navbar-brand {
+        @include make-xs-column(12);
+        @include make-md-column(2);
+        @include make-md-column-offset(1);
+    }
+    #block-posse-theme-addtoanybuttons {
+        @include make-xs-column(12);
+        @include make-md-column(2);
+        @include make-md-column-offset(1);
+    }
+    #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+        @include make-xs-column(12);
+        @include make-md-column-offset(1);
+        @include make-md-column(4);
+    }
+
 }
