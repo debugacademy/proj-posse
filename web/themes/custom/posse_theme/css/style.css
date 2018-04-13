@@ -6360,7 +6360,8 @@ p:last-child,
 /* Services Block */
 #block-services {
   background-color: #173243;
-  text-align: center; }
+  text-align: center;
+  /* Services Media */ }
   #block-services h2 {
     padding-top: 40px;
     color: #99e2b8;
@@ -6409,6 +6410,190 @@ p:last-child,
       font-size: 1.1em; }
     #block-services li {
       width: 60%; } }
+
+/* Footer Area */
+.footer.container {
+  background-color: #102330;
+  color: #ffffff;
+  /* Footer Media */ }
+  .footer.container .navbar-brand {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    width: 300px;
+    word-spacing: 2px;
+    color: #fff; }
+  .footer.container #block-posse-theme-addtoanybuttons {
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 268px;
+    height: 70px;
+    border-left: 1px solid #263643;
+    border-right: 1px solid #263643; }
+    .footer.container #block-posse-theme-addtoanybuttons .addtoany_list > a {
+      padding: 0 10px; }
+  .footer.container .field--name-body {
+    margin-top: 27px; }
+    .footer.container .field--name-body p {
+      font-weight: 200;
+      letter-spacing: 1px;
+      font-size: .9em; }
+      .footer.container .field--name-body p a {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #fe7478;
+        margin-left: 5px;
+        border-bottom: 1px solid #fe7478;
+        padding-bottom: 2px; }
+  .footer.container .footer_year {
+    margin-left: 32px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: .64em;
+    text-transform: uppercase;
+    width: 215px;
+    position: absolute;
+    z-index: 3;
+    margin-top: -20px; }
+  @media screen and (max-width: 1200px) {
+    .footer.container .navbar-brand {
+      letter-spacing: 2px;
+      font-size: 1em; }
+    .footer.container .field--name-body p {
+      margin-left: 529px;
+      margin-top: -10px;
+      line-height: 1.6; }
+    .footer.container #block-posse-theme-addtoanybuttons .addtoany_list > a {
+      padding: 0 10px; }
+    .footer.container .footer_year {
+      font-size: .54em;
+      margin-left: 23px; } }
+  @media screen and (max-width: 992px) {
+    .footer.container .region-footer {
+      height: 150px; }
+    .footer.container .navbar-brand {
+      letter-spacing: 4px;
+      font-size: 1.2em;
+      top: -10px; }
+    .footer.container .field--name-body p {
+      margin-left: 292px;
+      padding-top: 42px;
+      width: 397px;
+      height: 100px;
+      font-size: 1em;
+      line-height: 1.6; }
+    .footer.container #block-posse-theme-addtoanybuttons {
+      border-left: none; }
+      .footer.container #block-posse-theme-addtoanybuttons .addtoany_list > a {
+        padding: 0 12px; }
+    .footer.container .footer_year {
+      margin-left: 255px;
+      margin-top: 5px; } }
+  @media screen and (max-width: 768px) {
+    .footer.container .navbar-brand {
+      margin-left: 6px;
+      font-size: 1.2em;
+      top: -10px; }
+    .footer.container .field--name-body p {
+      padding-left: 370px;
+      padding-right: 60px;
+      font-size: 1em;
+      word-spacing: 3px;
+      line-height: 1.6; }
+    .footer.container #block-posse-theme-addtoanybuttons {
+      margin-left: 60px;
+      border-left: none; }
+      .footer.container #block-posse-theme-addtoanybuttons .addtoany_list > a {
+        padding: 0 17px; }
+    .footer.container .footer_year {
+      bottom: 10px;
+      margin-left: 250px; } }
+  @media screen and (max-width: 400px) {
+    .footer.container .region-footer {
+      height: 298px; }
+    .footer.container .navbar-brand {
+      bottom: -233px;
+      margin-left: 10px;
+      font-size: 1.2em; }
+    .footer.container .field--name-body p {
+      position: absolute;
+      top: 10px;
+      padding-left: 64px;
+      padding-right: 50px;
+      font-size: 1.1em;
+      word-spacing: 3px;
+      line-height: 1.6; }
+    .footer.container #block-posse-theme-addtoanybuttons {
+      margin-left: 60px;
+      margin-top: 80px;
+      border-top: 1px solid #263643;
+      border-bottom: 1px solid #263643;
+      border-left: none;
+      border-right: none;
+      padding: 16px 0px; }
+      .footer.container #block-posse-theme-addtoanybuttons .addtoany_list > a {
+        padding: 0 17px; }
+    .footer.container .footer_year {
+      position: absolute;
+      bottom: 42px;
+      margin-left: 90px; } }
+
+/*** Footer Grid***/
+.region-footer {
+  text-align: center; }
+  .region-footer .logo {
+    display: none; }
+  .region-footer .name.navbar-brand {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer .name.navbar-brand {
+        float: left;
+        width: 25%; } }
+  .region-footer #block-posse-theme-addtoanybuttons {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer #block-posse-theme-addtoanybuttons {
+        float: left;
+        width: 16.6666666667%; } }
+    @media (min-width: 992px) {
+      .region-footer #block-posse-theme-addtoanybuttons {
+        margin-left: 8.3333333333%; } }
+  .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+        margin-left: 8.3333333333%; } }
+    @media (min-width: 992px) {
+      .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
+        float: left;
+        width: 33.3333333333%; } }
 
 #block-meetthedevblock {
   background-color: #F4F3F1; }
