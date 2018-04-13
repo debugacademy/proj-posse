@@ -15,8 +15,8 @@
  * - logged_in: A flag indicating if the user is registered and signed in.
  * - is_admin: A flag indicating if the user has permission to access
  *   administration pages.
- * - posse_theme_year: site year
- * - posse_theme_site_name: site name
+ * - posse_theme_year: The current year.
+ * - posse_theme_site_name: The site name.
  *
  * Site identity:
  * - front_page: The URL of the front page. Use this instead of base_path when
@@ -164,9 +164,8 @@
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
-        <div>© {{ posse_theme_year }} {{ posse_theme_site_name }}. All Rights Reserved.</div>
-        {{ page.footer }}
-        
+         {{ page.footer }}
+        <div class= "footer_year">&copy; {{ posse_theme_year}} .  All rights reserved</div>
     </footer>
   {% endblock %}
 {% endif %}
