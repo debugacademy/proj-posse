@@ -6415,9 +6415,7 @@ p:last-child,
   text-align: center;
   background-color: #102330;
   color: #ffffff; }
-  .region-footer .logo {
-    display: none; }
-  .region-footer .name.navbar-brand {
+  .region-footer .site-copyright {
     position: relative;
     float: left;
     width: 100%;
@@ -6429,10 +6427,10 @@ p:last-child,
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 992px) {
-      .region-footer .name.navbar-brand {
+      .region-footer .site-copyright {
         margin-left: 8.3333333333%; } }
     @media (min-width: 992px) {
-      .region-footer .name.navbar-brand {
+      .region-footer .site-copyright {
         float: left;
         width: 16.6666666667%; } }
   .region-footer #block-posse-theme-addtoanybuttons {

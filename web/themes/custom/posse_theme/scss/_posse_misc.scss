@@ -83,10 +83,7 @@
   background-color: #102330;
   color: #ffffff;
   
-  .logo {
-    display: none;
-  }
-  .name.navbar-brand {
+  .site-copyright {
     @include make-xs-column(12);
     @include make-md-column-offset(1);
     @include make-md-column(2);
