@@ -7,13 +7,8 @@
  * Place your custom PHP code in this file.
  */
 
-/* Google Drupal API to get the latest parameters to use.  Ensure you have the correct version. Also change the name of hook_preprocess to the name of your theme. */
-
-/* The hook is being called every time something is processed.  Also prefix your variable with name of your module so it doesn't over ride any other variables */
-
-/* The two variables crated will now be available in twig. */
-
 function posse_theme_preprocess(&$variables, $hook) {
     $variables['posse_theme_year'] = date('Y');
     $variables['posse_theme_site_name'] = \Drupal::config('system.site')->get('name');
 }
+
