@@ -2,10 +2,6 @@ uuid: b5addb6f-9cf3-420f-a63d-de898784dd14
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:1fb0c563-e164-4357-8c90-7f2d987cd276'
-  module:
-    - block_content
   theme:
     - posse_theme
 id: templateprogrammedbystudentsofthecareerchangingdebugacademy
