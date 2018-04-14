@@ -1,0 +1,20 @@
+uuid: 4601e583-4ffe-4481-b6c6-f75501e5b861
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+  theme:
+    - posse_theme
+id: templateprogrammedby
+theme: posse_theme
+region: footer
+weight: 0
+provider: null
+plugin: template_programmed_by
+settings:
+  id: template_programmed_by
+  label: 'Template programmed by students in the career-changing Debug Academy'
+  provider: posse_dc
+  label_display: '0'
+visibility: {  }
