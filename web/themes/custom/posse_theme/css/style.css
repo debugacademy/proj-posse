@@ -6506,4 +6506,54 @@ p:last-child,
         padding: 0;
         margin: 0; }
 
+/***** Blog Page *****/
+/* Blog Header */
+.blog_section {
+  height: 500px;
+  width: 1140px;
+  background-color: #1c3243;
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif; }
+  .blog_section img {
+    width: 50%; }
+
+.content_section {
+  width: 570px;
+  color: #ffff;
+  text-align: center; }
+
+.top_section {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  word-spacing: 90px; }
+
+.mid_section span {
+  color: #FFA500;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; }
+
+.mid_section p {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif; }
+
+.top_section ul {
+  list-style-type: none; }
+  .top_section ul li {
+    display: inline;
+    font-weight: 100;
+    font-size: 24px; }
+
+.lower_section p {
+  text-transform: uppercase;
+  padding-top: 30px;
+  letter-spacing: 8px; }
+
+.lower_section p span {
+  margin-bottom: 18px; }
+
 /*# sourceMappingURL=style.css.map */
