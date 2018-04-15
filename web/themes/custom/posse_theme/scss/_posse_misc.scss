@@ -99,3 +99,54 @@
     @include make-md-column(4);
   }
 }
+
+
+/***  testimonials **/
+
+#block-views-block-testimonials-block-1 {
+    text-align: center;
+    background-color: #F4F3F1;
+    padding: 25px;
+}
+
+.view-content{
+    width: 90%;
+    display: inline-flex;
+}
+.view-header {
+    text-transform: uppercase;
+    color: #5890A5;
+    font-weight: bold;
+    h2 {
+        color: #5B6E7B;
+        padding-bottom: 25px;
+    }
+}
+.views-row:nth-child(odd) {
+    color: #5B6E7B;
+    background-color: #F7F6F5;
+    padding: 50px;
+    text-align: center;
+}
+.views-row:nth-child(even) {
+    color: #5B6E7B; 
+    background-color: #E5E3DF;
+    padding: 50px;
+    text-align: center;
+}
+
+.views-field-field-name {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+
+img {
+     width:60px;
+    height:60px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
