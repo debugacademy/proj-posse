@@ -281,7 +281,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'Let''s talk about the internet & stuff'
+            value: '<h3>Let''s talk about the internet & stuff</h3>'
             format: basic_html
           plugin_id: text
       footer: {  }
