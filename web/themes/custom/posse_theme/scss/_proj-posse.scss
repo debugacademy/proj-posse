@@ -104,6 +104,13 @@ h4 {
 }
 
 #block-meetthedevblock {
+  margin-top: 120px;
+  h2 {
+    color: $dark-color;
+  }
+  h3 {
+    color: $medium-color;
+  }
   p {
     @include make-xs-column(12);
     @include make-sm-column(8);
@@ -111,15 +118,20 @@ h4 {
     line-height: 2.3em;
     text-align: justify;
   }
+  .meetdev-photos {
+    img {
+      width: 20%;
+    }
+  }
   .meetthedev-titles {
     @include make-xs-column(12);
     @include make-sm-column(4);
     @include make-sm-column-offset(2);
     h2, h3 {
-      text-align: left ;
+      text-align: left;
     }
     h2 {
-      margin-top: 75px;
+      margin-top: 50px;
       margin-bottom: 19px;
     }
     h3 {
@@ -131,5 +143,42 @@ h4 {
     @include make-xs-column(12);
     @include make-sm-column(3);
     @include make-sm-column-offset(1);
+    img {
+      display: inline;
+      margin: 50px 10px 40px 10px;
+    }
   }
+  .meetthedev-social {
+    @include make-xs-column(12);
+    @include make-sm-column(10);
+    @include make-sm-column-offset(1);
+    color: $medium-color;
+    font-size: .9em;
+    text-transform: capitalize;
+    margin-top: 35px;
+    padding-top: 30px;
+    border-top: 1px solid $medium-color;
+    ul {
+      width: 90%;
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+    li {
+      display: inline-block;
+      margin-right: 10%;
+    }
+    li:first-child {
+      margin-left: 15px;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    a[href*="mailto"] {
+      color: $highlight-med;
+    }
+  }
+}
+
+#block-posse-theme-views-block-blog-posts-block-1 {
+  margin-top: 120px;
 }
