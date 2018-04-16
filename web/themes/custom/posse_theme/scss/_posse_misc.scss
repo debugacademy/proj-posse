@@ -106,9 +106,11 @@
 #block-views-block-testimonials-block-1 {
     text-align: center;
     background-color: #F4F3F1;
-    padding: 25px;
-}
+    padding-bottom: 75px;
 
+p {
+    padding-bottom: 20px;
+}
 .view-content{
     width: 90%;
     display: inline-flex;
@@ -125,28 +127,33 @@
 .views-row:nth-child(odd) {
     color: #5B6E7B;
     background-color: #F7F6F5;
-    padding: 50px;
-    text-align: center;
+   padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .views-row:nth-child(even) {
     color: #5B6E7B; 
     background-color: #E5E3DF;
-    padding: 50px;
-    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .views-field-field-name {
-    padding-top: 50px;
-    padding-bottom: 25px;
     font-weight: bolder;
 }
 
 img {
-     width:60px;
-    height:60px;
+     width:80px;
+    height:80px;
     border-radius:50%;
     overflow:hidden;
-    margin-left: auto;
-    margin-right: auto;
     padding: 10px;
+    margin-bottom: -85px;
+    margin-top: 25px;
+    display: inline-flex;
+}
+
 }
