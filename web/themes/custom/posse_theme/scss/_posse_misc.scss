@@ -99,3 +99,61 @@
     @include make-md-column(4);
   }
 }
+
+
+/***  testimonials **/
+
+#block-views-block-testimonials-block-1 {
+    text-align: center;
+    background-color: #F4F3F1;
+    padding-bottom: 75px;
+
+p {
+    padding-bottom: 20px;
+}
+.view-content{
+    width: 90%;
+    display: inline-flex;
+}
+.view-header {
+    text-transform: uppercase;
+    color: #5890A5;
+    font-weight: bold;
+    h2 {
+        color: #5B6E7B;
+        padding-bottom: 25px;
+    }
+}
+.views-row:nth-child(odd) {
+    color: #5B6E7B;
+    background-color: #F7F6F5;
+   padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.views-row:nth-child(even) {
+    color: #5B6E7B; 
+    background-color: #E5E3DF;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.views-field-field-name {
+    font-weight: bolder;
+}
+
+img {
+     width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow:hidden;
+    padding: 10px;
+    margin-bottom: -85px;
+    margin-top: 25px;
+    display: inline-flex;
+}
+
+}

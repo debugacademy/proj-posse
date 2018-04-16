@@ -1,4 +1,4 @@
-uuid: 8a5f36e7-8731-4bbd-b5b6-285508c871fe
+uuid: 6a251419-e54e-4df9-ae26-0aea693ce04d
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - posse_dc
   theme:
     - posse_theme
-id: meetthedevblock
+id: templateprogrammedby
 theme: posse_theme
-region: content
-weight: -2
+region: footer
+weight: 0
 provider: null
-plugin: meet_the_dev_block
+plugin: templateprogrammedby
 settings:
-  id: meet_the_dev_block
-  label: 'Meet the Dev'
+  id: templateprogrammedby
+  label: Templateprogrammedby
   provider: posse_dc
   label_display: '0'
 visibility: {  }
