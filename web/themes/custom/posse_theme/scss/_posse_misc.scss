@@ -99,3 +99,32 @@
     @include make-md-column(4);
   }
 }
+
+
+/***** blog view  *****/
+
+.view-id-blog_posts {
+    @extend .row;
+    @include make-xs-column(10);
+    @include make-xs-column-offset(1);
+    text-align: center;
+
+    .views-row {
+        @include make-xs-column(12);
+        @include make-md-column(4);
+        margin-bottom: 20px;
+        .views-field {
+        background-color: #015779;
+        color: #ffffff;
+        }
+        .field-content a {
+            color: #ffffff;
+        }
+        .views-field-field-blog-image {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
