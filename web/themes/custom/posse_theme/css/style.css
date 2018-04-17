@@ -16,6 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6411,6 +6412,12 @@ p:last-child,
       width: 60%; } }
 
 /*** Blog View ***/
+h3 {
+  text-transform: uppercase;
+  color: #325C74;
+  text-align: center;
+  font-weigth: ligter; }
+
 .view-id-blog_posts {
   position: relative;
   float: left;
@@ -6419,7 +6426,16 @@ p:last-child,
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 8.3333333333%;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
+  .view-id-blog_posts .view-header {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #325C74;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 30px; }
   .view-id-blog_posts .views-row {
     position: relative;
     float: left;
@@ -6440,9 +6456,28 @@ p:last-child,
       background-color: #015779;
       color: #ffffff; }
     .view-id-blog_posts .views-row .field-content a {
-      color: #ffffff; }
+      color: #ffffff;
+      letter-spacing: 3px; }
     .view-id-blog_posts .views-row .views-field-field-blog-image img {
       width: 100%; }
+    .view-id-blog_posts .views-row .views-field-created {
+      font-size: 9px;
+      text-transform: uppercase;
+      padding-top: 25px; }
+    .view-id-blog_posts .views-row .views-field-title {
+      text-transform: uppercase;
+      font-size: 16px;
+      padding-top: 32px;
+      padding-bottom: 30px;
+      font-family: 'Montserrat', sans-serif; }
+    .view-id-blog_posts .views-row .views-field-view-node a {
+      color: #99e2b8;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif; }
+    .view-id-blog_posts .views-row .more-link form-group a {
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: #337ab7; }
 
 /*** Footer ***/
 .region-footer {
