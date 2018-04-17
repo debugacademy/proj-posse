@@ -16,6 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6471,6 +6472,14 @@ p:last-child,
         width: 33.3333333333%; } }
 
 /***** blog view  *****/
+h3 {
+  text-align: center;
+  color: #005779;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
+
 .view-id-blog_posts {
   position: relative;
   float: left;
@@ -6479,7 +6488,16 @@ p:last-child,
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 8.3333333333%;
-  text-align: center; }
+  text-align: center;
+  font-family: "Montserrat", sans-serif; }
+  .view-id-blog_posts .view-header {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: #173244;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .view-id-blog_posts .views-row {
     position: relative;
     float: left;
@@ -6505,6 +6523,30 @@ p:last-child,
       width: 100%; }
     .view-id-blog_posts .views-row img {
       width: 100%; }
+    .view-id-blog_posts .views-row .views-field-created {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-transform: uppercase;
+      font-size: 14px; }
+    .view-id-blog_posts .views-row .views-field-title {
+      text-transform: uppercase;
+      font-size: 18px;
+      padding-bottom: 30px; }
+    .view-id-blog_posts .views-row .views-field-view-node a {
+      color: #84CFB7;
+      text-decoration: underline;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 3px; }
+  .view-id-blog_posts .more-link .form-group a {
+    background-color: #015779;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 50px 20px;
+    font-weight: bold;
+    font-size: 20px; }
 
 #block-meetthedevblock {
   background-color: #F4F3F1; }
