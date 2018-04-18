@@ -6415,8 +6415,7 @@ p:last-child,
 h3 {
   text-transform: uppercase;
   color: #325C74;
-  text-align: center;
-  font-weigth: ligter; }
+  text-align: center; }
 
 .view-id-blog_posts {
   position: relative;
@@ -6467,17 +6466,14 @@ h3 {
     .view-id-blog_posts .views-row .views-field-title {
       text-transform: uppercase;
       font-size: 16px;
-      padding-top: 32px;
+      padding-top: 25px;
       padding-bottom: 30px;
       font-family: 'Montserrat', sans-serif; }
     .view-id-blog_posts .views-row .views-field-view-node a {
       color: #99e2b8;
       text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif; }
-    .view-id-blog_posts .views-row .more-link form-group a {
-      text-transform: uppercase;
-      color: #ffffff;
-      background-color: #337ab7; }
+      font-family: 'Montserrat', sans-serif;
+      padding-bottom: 40px; }
 
 /*** Footer ***/
 .region-footer {
