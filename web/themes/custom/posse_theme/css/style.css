@@ -6433,8 +6433,8 @@ h3 {
     color: #325C74;
     font-weight: bold;
     font-size: 18px;
-    padding-top: 13px;
-    padding-bottom: 30px; }
+    padding-top: 10px;
+    padding-bottom: 25px; }
   .view-id-blog_posts .views-row {
     position: relative;
     float: left;
@@ -6473,7 +6473,13 @@ h3 {
       color: #99e2b8;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
-      padding-bottom: 40px; }
+      padding-bottom: 20px; }
+    .view-id-blog_posts .views-row .more-link .form-group a {
+      background-color: #015779;
+      color: #ffffff;
+      border-radius: 50px 25px;
+      padding-top: 20px;
+      font-size: 20px; }
 
 /*** Footer ***/
 .region-footer {

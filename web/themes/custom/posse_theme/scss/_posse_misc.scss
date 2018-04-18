@@ -84,7 +84,7 @@ h3 {
     text-transform: uppercase;
     color: #325C74;
     text-align: center;       
-}   
+    }   
 
 .view-id-blog_posts {
     @extend .row;
@@ -99,8 +99,8 @@ h3 {
         color: #325C74;
         font-weight: bold;
         font-size: 18px;
-        padding-top: 13px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 25px;
     }
     
     .views-row {
@@ -136,9 +136,9 @@ h3 {
         color: #99e2b8;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
-    
+
   }
 }    
 
