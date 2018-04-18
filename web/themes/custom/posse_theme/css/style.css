@@ -16,6 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1551,13 +1552,13 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, .region-footer {
+.row, .region-footer, .view-id-blog_posts {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .region-footer:before, .row:after, .region-footer:after {
+  .row:before, .region-footer:before, .view-id-blog_posts:before, .row:after, .region-footer:after, .view-id-blog_posts:after {
     content: " ";
     display: table; }
-  .row:after, .region-footer:after {
+  .row:after, .region-footer:after, .view-id-blog_posts:after {
     clear: both; }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -5938,7 +5939,7 @@ html.js .ajax-new-content:empty {
   white-space: pre;
   vertical-align: middle; }
 
-.image-widget.row, .image-widget.region-footer {
+.image-widget.row, .image-widget.region-footer, .image-widget.view-id-blog_posts {
   overflow: hidden; }
 
 /**
@@ -6469,6 +6470,83 @@ p:last-child,
       .region-footer #block-templateprogrammedbystudentsofthecareerchangingdebugacademy {
         float: left;
         width: 33.3333333333%; } }
+
+/***** blog view  *****/
+h3 {
+  text-align: center;
+  color: #005779;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
+
+.view-id-blog_posts {
+  position: relative;
+  float: left;
+  width: 83.3333333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 8.3333333333%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif; }
+  .view-id-blog_posts .view-header {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: #173244;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .view-id-blog_posts .views-row {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      .view-id-blog_posts .views-row {
+        float: left;
+        width: 33.3333333333%; } }
+    .view-id-blog_posts .views-row .views-field {
+      background-color: #015779;
+      color: #ffffff; }
+    .view-id-blog_posts .views-row .field-content a {
+      color: #ffffff; }
+    .view-id-blog_posts .views-row .views-field-field-blog-image {
+      width: 100%; }
+    .view-id-blog_posts .views-row img {
+      width: 100%; }
+    .view-id-blog_posts .views-row .views-field-created {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-transform: uppercase;
+      font-size: 14px; }
+    .view-id-blog_posts .views-row .views-field-title {
+      text-transform: uppercase;
+      font-size: 18px;
+      padding-bottom: 30px; }
+    .view-id-blog_posts .views-row .views-field-view-node a {
+      color: #84CFB7;
+      text-decoration: underline;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 3px; }
+  .view-id-blog_posts .more-link .form-group a {
+    background-color: #015779;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 50px 20px;
+    font-weight: bold;
+    font-size: 20px; }
 
 #block-meetthedevblock {
   background-color: #F4F3F1; }
