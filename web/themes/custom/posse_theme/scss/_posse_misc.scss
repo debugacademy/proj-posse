@@ -77,13 +77,94 @@
     }
 }
 
+/*** Blog view ***/
+
+
+.col-sm-12 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.3em;
+    color: #004d6e;
+}
+.view-id-blog_posts {
+    @extend .row;
+    @include make-xs-column(10);
+    @include make-xs-column-offset(1);
+    text-align: center;
+    .view-header {
+        margin-bottom: 50px;
+        font-size: 1.7em;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 4px;
+        color: #1d3242;
+    }
+    .views-row {
+        @include make-xs-column(12);
+        @include make-md-column(4);
+        padding-bottom: 50px;
+        .views-field {
+            background-color: #015779;
+            color: #ffffff;
+        }
+        .field-content a {
+        color: #ffffff;
+        }
+        .views-field-field-blog-image {
+        width: 100%;
+        display: inline-flex;
+            img {
+                width: 570px;
+            }
+        }
+        .views-field-created {
+            text-transform: uppercase;
+            font-size: 0.7em;
+            letter-spacing: 2px;
+            height: 30px;
+            margin-top: -5px;
+            padding-top: 35px;
+        }
+        .views-field-title {
+            font-weight: 200;
+            height: 120px;
+            padding-top: 35px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 1.4em;
+        }
+        .views-field-view-node {
+            height: 50px;
+            letter-spacing: 2px;
+            font-size: 1em;
+            a {
+                border-bottom: 1px solid #8dddb8;
+                color: #8dddb8;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+/*
+.form-group a {
+    background-color: #015779;
+    color: #fff;
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 4px;
+    padding: 20px;
+    border-radius: 49%;
+}
+*/
 /*** Footer ***/
 .region-footer {
   @extend .row;
   text-align: center;
   background-color: #102330;
   color: #ffffff;
-  
+
   .site-copyright {
     @include make-xs-column(12);
     @include make-md-column-offset(1);
