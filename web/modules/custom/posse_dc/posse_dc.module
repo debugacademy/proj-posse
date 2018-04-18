@@ -1,0 +1,11 @@
+<?php 
+
+function posse_dc_preprocess(&$variables, $hook) {
+	// Google:
+		// Programmatically render block drupal 8
+		// Get the view machine id.
+	$blog_block = views_embed_view('blog_posts', 'block_1');
+	$variables['blog_block'] = $blog_block;
+	
+		
+}		
