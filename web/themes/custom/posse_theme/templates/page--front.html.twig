@@ -56,7 +56,11 @@
   {# Content #}
         {% block content %}
           <a id="main-content"></a>
+           <h3 id="portfolio">Work</h3>
+          {{ portfolio_block }}
+
           {{ page.content }}
-          <h3><span id="blog">Blog</span></h3>
+
+          <h3 id="blog">Blog</h3>
           {{ blog_block }}
         {% endblock %}

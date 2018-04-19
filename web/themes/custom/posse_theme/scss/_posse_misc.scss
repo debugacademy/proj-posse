@@ -102,7 +102,22 @@
 }
 
 
+/***** portfolio view  *****/
+
+.view-display-id-block_1 {
+@extend .row;
+@include make-xs-column(10);
+@include make-xs-column-offset(1);
+font-family: "Montserrat", sans-serif;    
+}
+.views-field-views-field-field-tagline-slogan-above {
+    @include make-md-column(3);
+}
+
+
+
 /***** blog view  *****/
+ 
   h3 {
         text-align: center;
         color: #005779;
@@ -174,6 +189,6 @@
             border-radius: 50px 20px;
             font-weight: bold;
             font-size: 20px;
-            }
+        }
 }
       
