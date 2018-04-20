@@ -100,25 +100,69 @@
     @include make-md-column(4);
   }
 }
-
+.region-content {
+    @extend .row;    
+}
 
 /***** portfolio view  *****/
 
-.view-display-id-block_1 {
-@extend .row;
-@include make-xs-column(10);
-@include make-xs-column-offset(1);
-font-family: "Montserrat", sans-serif;    
+#portfolio-items-view {
+    
+    font-family: "Montserrat", sans-serif;
+    background-color: #F4F3F1; 
+          
+    .views-field-field-tagline-slogan-above {
+        width: 300px;
+        height: 250px;
+        background-color: #CD0000;
+        position: absolute;
+        top: 45%;
+    }
+    .views-field-field-hero-image {
+        width: 80%;
+        margin-left: 200px;
+    }
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .worktext {
+        text-align: center;
+        color: #fffff;     
+    }
+    .worktext a {
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-top: 15px;
+        padding-bottom: 18px;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+    p {
+        text-align: center;
+        font-size: 26px;
+        text-transform: uppercase;
+        padding-bottom: 65px;
+        color: #173244;
+        font-family: sans-serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+    
+    }
 }
-.views-field-views-field-field-tagline-slogan-above {
-    @include make-md-column(3);
-}
-
 
 
 /***** blog view  *****/
- 
-  h3 {
+
+h3 {
         text-align: center;
         color: #005779;
         text-transform: uppercase;
@@ -126,7 +170,7 @@ font-family: "Montserrat", sans-serif;
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
     }
-
+   
 .view-id-blog_posts {
     @extend .row;
     @include make-xs-column(10);
@@ -144,6 +188,7 @@ font-family: "Montserrat", sans-serif;
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .views-row {
         @include make-xs-column(12);
         @include make-md-column(4);
