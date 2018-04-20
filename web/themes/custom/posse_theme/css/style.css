@@ -6512,6 +6512,13 @@ p:last-child,
     font-family: sans-serif;
     letter-spacing: 5px;
     font-weight: bold; }
+  #portfolio-items-view .more-link .form-group a {
+    background-color: #015779;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 50px 20px;
+    font-weight: bold;
+    font-size: 20px; }
 
 /***** blog view  *****/
 h3 {
