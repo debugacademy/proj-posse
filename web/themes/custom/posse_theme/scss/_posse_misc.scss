@@ -104,78 +104,66 @@
     @extend .row;    
 }
 
-/***** portfolio view  *****/
 
-#portfolio-items-view {
-    
-    font-family: "Montserrat", sans-serif;
-    background-color: #F4F3F1; 
-          
-    .views-field-field-tagline-slogan-above {
-        width: 300px;
-        height: 250px;
-        background-color: #CD0000;
-        position: absolute;
-        top: 45%;
+/*** Portfolio View ***/
+.view-id-portfolio.view-display-id-block_1 {
+
+    .view-content {
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+        
+        .views-field-field-tagline-slogan-above {
+            @include make-xs-column(3);
+            position: relative;
+            float: left;
+            width: 25%;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 250px;
+            background-color: #ABD7E5;
+            margin-right: -70px;
+            z-index: 100;
+        }
+        .views-field-field-hero-image {
+            @include make-xs-column(9);
+            position: relative;
+            float: left;
+            width: 75%;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
     }
-    .views-field-field-hero-image {
-        width: 80%;
-        margin-left: 200px;
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            padding-bottom: 70px;
+
+        }
+        .more-link {
+            @include make-xs-column(12);
+            text-align: center;
+        }
     }
-    .img-responsive {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-bottom: 80px;
-    }
-    .worktext {
-        text-align: center;
-        color: #fffff;     
-    }
-    .worktext a {
-        color: #ffffff;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    
-    h3 {
-        font-size: 20px;
-        text-transform: uppercase;
-        padding-top: 15px;
-        padding-bottom: 18px;
-        letter-spacing: 5px;
-        font-weight: bold;
-    }
-    p {
-        text-align: center;
-        font-size: 26px;
-        text-transform: uppercase;
-        padding-bottom: 65px;
-        color: #173244;
-        font-family: sans-serif;
-        letter-spacing: 5px;
-        font-weight: bold; 
-    }
-}
 
 
 /***** blog view  *****/
-
-h3 {
-        text-align: center;
-        color: #005779;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: "Montserrat", sans-serif;
-        font-size: 20px;
-    }
    
 .view-id-blog_posts {
-    @extend .row;
-    @include make-xs-column(10);
-    @include make-xs-column-offset(1);
     text-align: center;
     font-family: "Montserrat", sans-serif;
+
+    .view-content {
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+    }
+    .more-link {
+        @include make-xs-column(12);
+        text-align: center;
+    }
 
     .view-header {
         text-transform: uppercase;
@@ -191,6 +179,7 @@ h3 {
     .views-row {
         @include make-xs-column(12);
         @include make-md-column(4);
+
         margin-bottom: 20px;
         .views-field {
         background-color: #015779;
@@ -226,7 +215,7 @@ h3 {
             letter-spacing: 3px;
         }
     }
-      .more-link .form-group a {
+        .more-link .form-group a {
             background-color: #015779;
             color: #ffffff;       
             padding: 30px;
@@ -234,5 +223,7 @@ h3 {
             font-weight: bold;
             font-size: 20px;
         }
-}
+    }
+
+
       
