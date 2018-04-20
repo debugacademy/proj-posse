@@ -100,24 +100,70 @@
     @include make-md-column(4);
   }
 }
+.region-content {
+    @extend .row;    
+}
+
+
+/*** Portfolio View ***/
+.view-id-portfolio.view-display-id-block_1 {
+
+    .view-content {
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+        
+        .views-field-field-tagline-slogan-above {
+            @include make-xs-column(3);
+            position: relative;
+            float: left;
+            width: 25%;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 250px;
+            background-color: #ABD7E5;
+            margin-right: -70px;
+            z-index: 100;
+        }
+        .views-field-field-hero-image {
+            @include make-xs-column(9);
+            position: relative;
+            float: left;
+            width: 75%;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+    }
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            padding-bottom: 70px;
+
+        }
+        .more-link {
+            @include make-xs-column(12);
+            text-align: center;
+        }
+    }
 
 
 /***** blog view  *****/
-  h3 {
-        text-align: center;
-        color: #005779;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: "Montserrat", sans-serif;
-        font-size: 20px;
-    }
-
+   
 .view-id-blog_posts {
-    @extend .row;
-    @include make-xs-column(10);
-    @include make-xs-column-offset(1);
     text-align: center;
     font-family: "Montserrat", sans-serif;
+
+    .view-content {
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+    }
+    .more-link {
+        @include make-xs-column(12);
+        text-align: center;
+    }
 
     .view-header {
         text-transform: uppercase;
@@ -129,9 +175,11 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .views-row {
         @include make-xs-column(12);
         @include make-md-column(4);
+
         margin-bottom: 20px;
         .views-field {
         background-color: #015779;
@@ -167,13 +215,15 @@
             letter-spacing: 3px;
         }
     }
-      .more-link .form-group a {
+        .more-link .form-group a {
             background-color: #015779;
             color: #ffffff;       
             padding: 30px;
             border-radius: 50px 20px;
             font-weight: bold;
             font-size: 20px;
-            }
-}
+        }
+    }
+
+
       
