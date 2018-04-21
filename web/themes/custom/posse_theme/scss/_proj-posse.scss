@@ -67,6 +67,7 @@ h4 {
   background-color: $dark-color;
   color: $light-color;
   font-weight: 200;
+
   h2 {
     color: $highlight-light;
     margin: 60px auto 35px auto;
@@ -78,28 +79,35 @@ h4 {
   h4 {
     margin-bottom: 25px;
   }
+  .services-list {
+    @include make-sm-column(10);
+    @include make-sm-column-offset(1);
+  }
   ul {
     display: block;
     margin: 80px auto;
     padding: 0;
   }
   li {
-    vertical-align: top;
     width: 30%;
     display: inline-block;
+    padding-top: 100px;
     text-align: center;
-    padding-right: 0px;
-    padding-left: 35px;
+    &:first-child {
+      margin-right: 4.3%;
+    }
+    &:last-child {
+      margin-left: 4.3%;
+    }
   }
-  li:first-child {
-    margin-left: 1%;
+  .web-development {
+    background: url("../images/icon-computer.png") no-repeat center top;
   }
-  li:last-child {
-    margin-right: 1%;
+  .app-development {
+    background: url("../images/icon-mobile-device.png") no-repeat center top;
   }
-  img {
-    display: inline-block;
-    margin-bottom: 55px;
+  .seo-assistance {
+    background: url("../images/icon-magnifier.png") no-repeat center top;
   }
 }
 
