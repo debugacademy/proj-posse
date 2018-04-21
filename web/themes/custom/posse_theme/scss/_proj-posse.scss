@@ -1,50 +1,184 @@
-// Proj-Posse styling
+// ============= Variable Definitions  =============
+
+// Color Definitions
+// Colors tested and selected for WCAG AAA compliance
+$light-color: #FFF;             // used text on drk bkgrnd
+$medium-color: #005779;         // bkgrnd w/white text
+                                // text on white bkgrnd
+                                // used for bootstrap $brand-primary
+$dark-color: #173244;           // bkgrnd w/white text
+                                // text on neutral color bkgrnd
+$neutral-color: #eae9e6;
+$dark-neutral-color: #3d4f57;   // text on neutral & light colors
+                                // used for bootstrap $text-color
+$highlight-light: #bafffd;      // text on med & drk colors
+
+$highlight-med: #a52c15;        // bkgrnd w/white text
+                                // NOT acceptable as text on med or drk bkgrnd
+$highlight-dark: #102330 ;      // bkgrnd w/white text
+
+// Typographic
+// $secondary-font-stack: 'Roboto Condensed', Arial, sans-serif;
+
+/* ============= Global Styles  =============  */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Color styles  */
+.light-background  {
+  color: $highlight-light;
+}
+.medium-background {
+  color: $medium-color;
+}
+.dark-background {
+  color: $dark-color;
+}
+
+/* Typographic styles
+   Font sizes based on a default of 16px
+   see default-variables & bootstrap variables */
+h2, h3, h4 {
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: .5rem;
+}
+h2 {
+  color: $medium-color;
+}
+h3 {
+  color: $dark-color;
+}
+h4 {
+  color: $medium-color;
+}
+
+/* ============= Homepage styles  =============  */
+
+#block-services {
+  background-color: $dark-color;
+  color: $light-color;
+  font-weight: 200;
+  h2 {
+    color: $highlight-light;
+    margin: 60px auto 35px auto;
+    font-weight: 300;
+  }
+  h3, h4 {
+    color: $light-color;
+  }
+  h4 {
+    margin-bottom: 25px;
+  }
+  ul {
+    display: block;
+    margin: 80px auto;
+    padding: 0;
+  }
+  li {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 35px;
+  }
+  li:first-child {
+    margin-left: 1%;
+  }
+  li:last-child {
+    margin-right: 1%;
+  }
+  img {
+    display: inline-block;
+    margin-bottom: 55px;
+  }
+}
 
 #block-meetthedevblock {
-  background-color: #F4F3F1;
-  
+  margin-top: 120px;
   h2 {
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-top: 40px;
-    padding-left: 20%;
-    text-transform: uppercase;
+    color: $dark-color;
   }
-  
   h3 {
-    font-size: 3em;
-    margin: 0;
-    color: $dark-font;
-    padding-left: 20%;
+    color: $medium-color;
   }
-  
   p {
+    @include make-xs-column(12);
+    @include make-sm-column(8);
+    @include make-sm-column-offset(2);
+    line-height: 2.3em;
     text-align: justify;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    line-height: 2.5em;
   }
-  
-  ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    
-    li {
-      width: 19.5%;
-      margin: 0;
-      padding: 0;
-      display: inline-block;
-      
-      img {
-        width: 102%;
-        height: 200px;
-        padding: 0;
-        margin: 0;
-      }
+  .meetdev-photos {
+    img {
+      width: 20%;
     }
   }
+  .meetthedev-titles {
+    @include make-xs-column(12);
+    @include make-sm-column(4);
+    @include make-sm-column-offset(2);
+    h2, h3 {
+      text-align: left;
+    }
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 19px;
+    }
+    h3 {
+      margin-top: 0;
+      margin-bottom: 55px;
+    }
+  }
+  .meetthedev-icons {
+    @include make-xs-column(12);
+    @include make-sm-column(3);
+    @include make-sm-column-offset(1);
+    img {
+      display: inline;
+      margin: 50px 10px 40px 10px;
+    }
+  }
+  .meetthedev-social {
+    @include make-xs-column(12);
+    @include make-sm-column(10);
+    @include make-sm-column-offset(1);
+    color: $medium-color;
+    font-size: .9em;
+    text-transform: capitalize;
+    margin-top: 35px;
+    padding-top: 30px;
+    border-top: 1px solid $medium-color;
+    ul {
+      width: 90%;
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+    li {
+      display: inline-block;
+      margin-right: 10%;
+    }
+    li:first-child {
+      margin-left: 15px;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    a[href*="mailto"] {
+      color: $highlight-med;
+    }
+  }
+}
+
+#block-posse-theme-views-block-blog-posts-block-1 {
+  margin-top: 120px;
 }
