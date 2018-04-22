@@ -103,7 +103,22 @@
 
 /***** portfolio view  *****/
 
-
+.view-id-portfolio.view-display-id-block_1 {
+    .view-content{
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+        .views-field-field-tagline-slogan-above {
+            @include make-xs-column(3);
+        }
+        .views-field-field-hero-image {
+            @include make-xs-column(9);
+        }
+    }
+    .more-link {
+        @include make-xs-column(12);
+        text-align: center;
+    }
+}
 
 
 
@@ -118,12 +133,13 @@
     }
 
 .view-id-blog_posts {
-    @extend .row;
-    @include make-xs-column(10);
-    @include make-xs-column-offset(1);
     text-align: center;
     font-family: "Montserrat", sans-serif;
 
+    .view-content {
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+    }
     .view-header {
         text-transform: uppercase;
         font-family: sans-serif;
@@ -135,8 +151,8 @@
         padding-bottom: 20px;
     }
     .views-row {
-        @include make-xs-column(12);
-        @include make-md-column(4);
+    @include make-xs-column(12);
+    @include make-md-column(4);
         margin-bottom: 20px;
         .views-field {
         background-color: #015779;
