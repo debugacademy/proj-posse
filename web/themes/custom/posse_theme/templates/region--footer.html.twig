@@ -20,9 +20,12 @@
     'region-' ~ region|clean_class,
   ]
 %}
-{% if content %}
+
   <div{{ attributes.addClass(classes) }}>
-    <div class="site-copyright">© {{ posse_theme_year }} {{ posse_theme_site_name }}. All Rights Reserved.</div>
+    <div class="site_info">
+      <h2>{{ posse_theme_site_name }}</h2>
+      <p class="site-copyright">&copy; {{ posse_theme_year }} . All Rights Reserved </p>
+    </div>
+
     {{ content }}
   </div>
-{% endif %}

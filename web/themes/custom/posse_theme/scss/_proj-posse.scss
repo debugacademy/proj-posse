@@ -41,9 +41,8 @@ ul {
   color: $dark-color;
 }
 
-/* Typographic styles
-   Font sizes based on a default of 16px
-   see default-variables & bootstrap variables */
+/*  Typographic styles */
+//  see default-variables & bootstrap variables
 h2, h3, h4 {
   font-family: $headings-font-family;
   text-transform: uppercase;
@@ -63,6 +62,7 @@ h4 {
 
 /* ============= Homepage styles  =============  */
 
+/* ---- Services ---- */
 #block-services {
   background-color: $dark-color;
   color: $light-color;
@@ -111,6 +111,7 @@ h4 {
   }
 }
 
+/* ---- Meet the Dev ---- */
 #block-meetthedevblock {
   margin-top: 120px;
   h2 {
@@ -162,7 +163,7 @@ h4 {
     @include make-sm-column-offset(1);
     color: $medium-color;
     font-size: .9em;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-top: 35px;
     padding-top: 30px;
     border-top: 1px solid $medium-color;
@@ -187,6 +188,79 @@ h4 {
   }
 }
 
+
+/* ---- Blog ---- */
 #block-posse-theme-views-block-blog-posts-block-1 {
   margin-top: 120px;
+}
+
+
+/* ---- Footer ---- */
+.footer {
+  border: none;
+  background-color: $highlight-dark;
+  color: $light-color;
+  font-size: .9em;
+}
+
+
+.site_info {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+  @include make-md-column(3);
+  text-align: center;
+  h2 {
+    color: $light-color;
+    margin-top: 10px;
+  }
+  .site-copyright {
+    font-size: .9em;
+  }
+  @media (min-width: $screen-sm-min) {
+    text-align: left;
+    padding-left: 30px;
+    h2 {
+      text-align: left;
+    }
+  }
+  @media (min-width: $screen-md-min) {
+    border-right: $dark-color solid 1px;
+    min-height: 75px;
+    padding-left: 35px;
+  }
+}
+
+
+#block-posse-theme-addtoanybuttons {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+  @include make-md-column(3);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#block-templateprogrammedby {
+  @include make-xs-column(12);
+  @include make-md-column(6);
+  text-align: center;
+
+  strong a {
+    color: $highlight-med;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  @media (min-width: $screen-sm-min) {
+    p {
+      margin: 20px 0 15px 0;
+      padding-left: 25px;
+      padding-right: 35px;
+    }
+  }
+  @media (min-width: $screen-md-min) {
+    border-left: $dark-color solid 1px;
+    min-height: 75px;
+  }
 }

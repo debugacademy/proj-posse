@@ -19,7 +19,7 @@ class TemplateProgrammedBy extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['template_programmed_by']['#markup'] = 'Implement TemplateProgrammedBy.';
+    $build['template_programmed_by']['#markup'] = '<p>Template programmed by students of the career-changing <strong><a href="https://debugacademy.com/">DEBUG ACADEMY</a></strong></p>';
 
     return $build;
   }
