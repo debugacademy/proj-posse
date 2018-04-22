@@ -4,12 +4,13 @@ status: true
 dependencies:
   module:
     - addtoany
+    - system
   theme:
     - posse_theme
 id: posse_theme_addtoanybuttons
 theme: posse_theme
 region: footer
-weight: -8
+weight: -7
 provider: null
 plugin: addtoany_block
 settings:
@@ -17,4 +18,9 @@ settings:
   label: 'AddToAny buttons'
   provider: addtoany
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
