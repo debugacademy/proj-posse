@@ -101,6 +101,22 @@
   }
 }
 
+/***** portfolio view  *****/
+#portfolio-items-view {
+    @extend .row;
+
+    @include make-xs-column(10);
+    @include make-xs-column-offset(1);
+    font-family: "Montserrat", sans-serif;
+
+    .views-field-field-tagline-slogan-above {
+        @include make-md-column(3);
+    }
+
+    .views-field-field-hero-image {
+        @include make-md-column(9);
+    }
+}
 
 /***** blog view  *****/
   h3 {
