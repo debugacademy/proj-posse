@@ -54,11 +54,16 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
   {# Content #}
-        {% block content %}
-          <a id="main-content"></a>
-          <h3 id="portfolio">Work</h3>
-          {{ portfolio_block }}
-          {{ page.content }}
-          <h3 id="blog">Blog</h3>
-          {{ blog_block }}
-        {% endblock %}
+
+{% block content %}
+    <a id="main-content"></a>
+
+        <h3 id="portfolio">Work</h3>
+        {{ portfolio_block }}
+
+        {{ page.content }}
+        <h3 id="blog">Blog</h3>
+        {{ blog_block }}
+
+{% endblock %}
+
