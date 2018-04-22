@@ -1,6 +1,9 @@
 <?php
 
 function posse_dc_preprocess(&$variables, $hook) {
-	$blog_block = views_embed_view('blog_posts', 'block_1'); //load view
+	$blog_block = views_embed_view('blog_posts', 'page_1'); //load view
 	$variables['blog_block'] = $blog_block; // put it in variable
+
+	$portfolio_block = views_embed_view('portfolio', 'page_1'); 
+	$variables['portfolio_block'] = $portfolio_block;
 }
