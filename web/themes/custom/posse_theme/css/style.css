@@ -6490,6 +6490,7 @@ p:last-child,
     position: relative;
     float: left;
     width: 25%;
+    top: 50px;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
@@ -6510,8 +6511,6 @@ p:last-child,
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
-.view-id-portfolio.view-display-id-block_1 #portfolio h3 {
-  text-align: center; }
 .view-id-portfolio.view-display-id-block_1 .img-responsive {
   display: block;
   max-width: 100%;
