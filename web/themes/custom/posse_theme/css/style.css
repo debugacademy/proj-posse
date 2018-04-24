@@ -6480,52 +6480,66 @@ p:last-child,
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 8.3333333333%; }
-  .view-id-portfolio.view-display-id-block_1 .view-content .views-field-field-tagline-slogan-above {
-    position: relative;
-    float: left;
-    width: 25%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    float: left;
-    width: 25%;
-    top: 50px;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 250px;
-    background-color: #ABD7E5;
-    margin-right: -70px;
-    z-index: 100; }
-  .view-id-portfolio.view-display-id-block_1 .view-content .views-field-field-hero-image {
-    position: relative;
-    float: left;
-    width: 75%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    float: left;
-    width: 75%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-.view-id-portfolio.view-display-id-block_1 .img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 70px; }
-.view-id-portfolio.view-display-id-block_1 .more-link {
+.view-id-portfolio.view-display-id-block_1 .views-field-field-tagline-slogan-above {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+  height: 250px;
+  width: 25%;
+  background-color: #ABD7E5;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: -50px;
+  margin-top: 50px;
+  z-index: 100; }
+.view-id-portfolio.view-display-id-block_1 .views-row:nth-child(2) .views-field-field-tagline-slogan-above {
+  right: 0; }
+.view-id-portfolio.view-display-id-block_1 .views-row:nth-child(2) .views-field-field-hero-image {
+  margin-left: 0; }
+.view-id-portfolio.view-display-id-block_1 .views-field-field-hero-image {
+  position: relative;
+  float: left;
+  width: 75%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+  width: 75%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: -75px; }
+
+.more-link {
   position: relative;
   float: left;
   width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 /***** blog view  *****/
+h3 {
+  text-align: center;
+  color: #005779;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px; }
+
 .view-id-blog_posts {
   text-align: center;
   font-family: "Montserrat", sans-serif; }
