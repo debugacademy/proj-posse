@@ -1,0 +1,20 @@
+uuid: f51ac272-78fe-4902-a0cc-e4c6ac8eeca4
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+  theme:
+    - posse_theme
+id: services
+theme: posse_theme
+region: content
+weight: -4
+provider: null
+plugin: services
+settings:
+  id: services
+  label: Services
+  provider: posse_dc
+  label_display: visible
+visibility: {  }

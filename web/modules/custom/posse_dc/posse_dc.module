@@ -1,0 +1,12 @@
+<?php
+
+function posse_dc_preprocess(&$variables, $hook) {
+	$blog_block = views_embed_view('blog_posts', 'block_1'); //load view
+	$variables['blog_block'] = $blog_block; // put it in twig variable
+
+
+
+	$portfolio_block = views_embed_view('portfolio', 'block_1');
+	$variables['portfolio_block'] = $portfolio_block;
+}
+

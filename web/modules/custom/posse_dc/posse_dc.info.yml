@@ -1,0 +1,9 @@
+name: POSSE Default Content
+description: Module used to store the website's default content
+package: Administration
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:default_content
