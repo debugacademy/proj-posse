@@ -63,51 +63,53 @@ h4 {
 /* ============= Homepage styles  =============  */
 
 /* ---- Services ---- */
-#block-services {
+.services-wrapper {
   background-color: $dark-color;
-  color: $light-color;
-  font-weight: 200;
-
-  h2 {
-    color: $highlight-light;
-    margin: 60px auto 35px auto;
-    font-weight: 300;
-  }
-  h3, h4 {
+  #block-services {
     color: $light-color;
-  }
-  h4 {
-    margin-bottom: 25px;
-  }
-  .services-list {
-    @include make-sm-column(10);
-    @include make-sm-column-offset(1);
-  }
-  ul {
-    display: block;
-    margin: 80px auto;
-    padding: 0;
-  }
-  li {
-    width: 30%;
-    display: inline-block;
-    padding-top: 100px;
-    text-align: center;
-    &:first-child {
-      margin-right: 4.3%;
+    font-weight: 200;
+
+    h2 {
+      color: $highlight-light;
+      margin: 60px auto 35px auto;
+      font-weight: 300;
     }
-    &:last-child {
-      margin-left: 4.3%;
+    h3, h4 {
+      color: $light-color;
     }
-  }
-  .web-development {
-    background: url("../images/icon-computer.png") no-repeat center top;
-  }
-  .app-development {
-    background: url("../images/icon-mobile-device.png") no-repeat center top;
-  }
-  .seo-assistance {
-    background: url("../images/icon-magnifier.png") no-repeat center top;
+    h4 {
+      margin-bottom: 25px;
+    }
+    .services-list {
+        @include make-sm-column(10);
+        @include make-sm-column-offset(1);
+      ul {
+        display: block;
+        margin: 80px auto;
+        padding: 0;
+      }
+      li {
+        width: 30%;
+        display: inline-block;
+        padding-top: 100px;
+        text-align: center;
+        &:first-child {
+          margin-right: 4.3%;
+        }
+        &:last-child {
+          margin-left: 4.3%;
+        }
+      }
+      .web-development {
+        background: url("../images/icon-computer.png") no-repeat center top;
+      }
+      .app-development {
+        background: url("../images/icon-mobile-device.png") no-repeat center top;
+      }
+      .seo-assistance {
+        background: url("../images/icon-magnifier.png") no-repeat center top;
+      }
+    }
   }
 }
 
@@ -192,6 +194,70 @@ h4 {
 /* ---- Blog ---- */
 #block-posse-theme-views-block-blog-posts-block-1 {
   margin-top: 120px;
+}
+.view-id-blog_posts {
+    @extend .row;
+    @include make-xs-column(10);
+    @include make-xs-column-offset(1);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+    .view-header {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        letter-spacing: 5px;
+        color: #173244;
+      
+        font-size: 26px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .views-row {
+        @include make-xs-column(12);
+        @include make-md-column(4);
+        margin-bottom: 20px;
+        .views-field {
+        background-color: #015779;
+        color: #ffffff;
+        }
+        .field-content a {
+            color: #ffffff;
+        }
+        .views-field-field-blog-image {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+        .views-field-created {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .views-field-title {
+            text-transform: uppercase;
+            font-size: 18px;
+            padding-bottom: 30px;
+        }
+        .views-field-view-node a {
+            color: #84CFB7;
+            text-decoration: underline;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+    }
+    .more-link .form-group a {
+        background-color: #015779;
+        color: #ffffff;       
+        padding: 30px;
+        border-radius: 50px 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
 }
 
 
