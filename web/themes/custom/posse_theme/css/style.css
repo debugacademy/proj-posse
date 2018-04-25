@@ -5993,7 +5993,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
       opacity: 0; }
   .select-wrapper:after {
     color: #005779;
-    content: '▼';
+    content: 'â¼';
     font-style: normal;
     font-weight: 400;
     line-height: 1;

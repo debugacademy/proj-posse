@@ -6,4 +6,11 @@ function posse_dc_preprocess(&$variables, $hook) {
 
 	$portfolio_block = views_embed_view('portfolio', 'block_1'); //load the view - machine name in View advance is block_1
 	$variables['portfolio_block'] = $portfolio_block;
+
+	$services_block = \Drupal\block\Entity\Block::load('services');
+	$services_block_content = \Drupal::entityManager()
+	  ->getViewBuilder('block')
+	  ->view($services_block);
+	$variables['services_block'] = $services_block_content;
+
 }
