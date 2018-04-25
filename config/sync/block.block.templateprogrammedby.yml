@@ -1,4 +1,4 @@
-uuid: 4601e583-4ffe-4481-b6c6-f75501e5b861
+uuid: fe981d96-b480-46c7-8fb1-98154bf7bb07
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: template_programmed_by
 settings:
   id: template_programmed_by
-  label: 'Template programmed by students in the career-changing Debug Academy'
+  label: 'Template programmed by'
   provider: posse_dc
   label_display: '0'
 visibility: {  }
