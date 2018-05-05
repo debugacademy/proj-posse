@@ -55,10 +55,11 @@ class PosseSettingsForm extends ConfigFormBase {
       '#default_value' => $config->get('portfolio_display'), 
     );
 
-    $form['homepage']['services'] = array(
+    $form['homepage']['services_display'] = array(
       '#type' => 'fieldset',
       '#title' => $this
-        ->t('Services Block'),
+        ->t('Services Block'), 
+    '#default_value' => $config->get('services_display'), 
     );
 
     $form['homepage']['services']['services_display'] = array(

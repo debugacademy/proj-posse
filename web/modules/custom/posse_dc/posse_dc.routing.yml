@@ -5,6 +5,6 @@ posse_dc.posse_settings:
     _form: '\Drupal\posse_dc\Form\PosseSettingsForm'
     _title: 'Posse Settings '
   requirements:
-    _permission: 'content'
+    _permission: 'access content'
   
 
