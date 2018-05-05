@@ -13,4 +13,21 @@ function posse_dc_preprocess(&$variables, $hook) {
 	  ->view($services_block);
 	$variables['services_block'] = $services_block_content;
 
+	$posse_config = \Drupal::config('posse_dc.possesettings');
+
+	$variables['blog_display'] = (bool) $posse_config->get('blog_display');
+		
+	$variables['portfolio_display'] = (bool) $posse_config->get('portfolio_display');
+		
+	$variables['services_display'] = (bool) $posse_config->get('services_display');
+		
+
+	$variables['service_1_title'] = $posse_config->get('service_1_title');	
+	$variables['service_1_body'] =  $posse_config->get('service_1_body');
+	$variables['service_2_title'] = $posse_config->get('service_2_title');	
+	$variables['service_2_body'] = $posse_config->get('service_2_body');	
+	$variables['service_3_title'] = $posse_config->get('service_3_title');	
+	$variables['service_3_body'] = $posse_config->get('service_3_body');	
+	$variables['posse_color'] =  $posse_config->get('posse_color');
+			
 }

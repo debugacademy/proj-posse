@@ -1,5 +1,5 @@
 name: POSSE Default Content
-description: Module used to store the website's default content
+description: Module used to store the website's blocks content
 package: Administration
 
 type: module
@@ -7,3 +7,4 @@ core: 8.x
 
 dependencies:
   - drupal:default_content
+configure: posse_dc.settings
