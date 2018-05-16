@@ -1,0 +1,34 @@
+uuid: 31a89f40-a640-4614-9693-a776e6d1bf0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - posse_dc
+    - system
+  theme:
+    - posse_theme
+id: homepage
+theme: posse_theme
+region: content
+weight: -5
+provider: null
+plugin: homepage
+settings:
+  id: homepage
+  label: Homepage
+  provider: posse_dc
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

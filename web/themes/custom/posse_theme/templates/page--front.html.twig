@@ -57,6 +57,17 @@
 {# Main #}
 {% block main %}
 
+  
+  <div class="homepage-wrapper">
+    <div class="{{ container }}">
+      <div class="row">
+        <div class="col-xs-12">
+          {{ homepage_block }}
+        </div>
+      </div>
+    </div>
+  </div>
+
 	<div class="services-wrapper">
 	  <div class="{{ container }}">
 	    <div class="row">
@@ -145,7 +156,7 @@
 	    <div class="row">
 	      <div class="col-xs-12">
 	          <h3 id="blog">Blog</h3>
-	          {{ blog_block }}
+	          {{ blog_block }} 
 		    </div>
 	    </div>
 	  </div>
