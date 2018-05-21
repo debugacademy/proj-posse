@@ -26,6 +26,7 @@
         "drupal/core": "~8.5",
         "drupal/default_content": "^1.0@alpha",
         "drupal/pathauto": "^1.1",
+        "drupal/responsive_menu": "^2.6",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
