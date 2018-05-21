@@ -55,7 +55,7 @@ class PosseSettingsForm extends ConfigFormBase {
       '#default_value' => $config->get('portfolio_display'), 
     );
 
-    $form['homepage']['services_display'] = array(
+    $form['homepage']['services'] = array(
       '#type' => 'fieldset',
       '#title' => $this
         ->t('Services Block'), 
@@ -123,14 +123,6 @@ class PosseSettingsForm extends ConfigFormBase {
     '#default_value' => $config->get('service_3_body'), 
     );
 
-
-    $form['color'] = array(
-    '#type' => 'color',
-    '#title' => $this
-        ->t('Color'),
-    '#default_value' => $config->get('color'), 
-    );
-
     return parent::buildForm($form, $form_state);
   }
 
@@ -145,16 +137,13 @@ class PosseSettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-
-    // $values = form_state->getValues();
-    // foreach ($values as $key => $value) {
-    //  $this->configFactory->getEditable('posse_dc.possesettings')
-    //   ->set($key, $value)
-    //   ->save();
+    $values = $form_state->getValues();
+    foreach ($values as $key => $value) {
+      $this->configFactory->getEditable('posse_dc.possesettings')
+        ->set($key, $value)
+        ->save();
+    }
     parent::submitForm($form, $form_state);
-
-    $this->config('posse_dc.possesettings')
-      ->save();
   }
 
 }
