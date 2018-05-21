@@ -77,6 +77,20 @@
 	  </div>
 	</div>
   {% endif %}
+  {% if testimonial_display %}
+    <div class="testimonial-wrapper">
+      <div class="{{ container }}">
+        <div class="row">
+          <div class="col-xs-12">
+            <h4 id="testimonial">Testimonials</h4>
+            <h3 id="title">What Are People Saying?</h3>
+            {{ testimonial_block }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
 
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
@@ -140,7 +154,7 @@
         {% endblock %}
       {% endif %}
     </div>
-  </div>
+  </div>  
 
 	{% if blog_display %}
   <div class="blog-wrapper">

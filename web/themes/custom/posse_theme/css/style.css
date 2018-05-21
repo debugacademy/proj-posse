@@ -6438,6 +6438,16 @@ h4 {
       .services-wrapper #block-services .services-list .seo-assistance {
         background: url("../images/icon-magnifier.png") no-repeat center top; }
 
+/* ----Testimonials-----*/
+#testimonial {
+  text-transform: uppercase; }
+
+#title h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  font-size: 24px; }
+
 /* ---- Meet the Dev ---- */
 #block-meetthedevblock {
   margin-top: 120px; }

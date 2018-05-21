@@ -30,43 +30,47 @@ class PosseSettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    
-    /* first two lines gets configuration object */ 
     $config = \Drupal::config('posse_dc.possesettings');
-    $config->get('name');
 
     $form['homepage'] = array(
       '#type' => 'fieldset',
       '#title' => $this
         ->t('Homepage'),
     );
-    
+
     $form['homepage']['blog_display'] = array(
       '#type' => 'checkbox',
       '#title' => $this
       ->t('Display blog posts on homepage?'),
-      '#default_value' => $config->get('blog_display'), 
+      '#default_value' => $config->get('blog_display'),
     );
 
     $form['homepage']['portfolio_display'] = array(
       '#type' => 'checkbox',
       '#title' => $this
       ->t('Display portfolio posts on homepage?'),
-      '#default_value' => $config->get('portfolio_display'), 
+      '#default_value' => $config->get('portfolio_display'),
+    );
+
+    $form['homepage']['testimonial_display'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this
+      ->t('Display testimonial posts on homepage?'),
+      '#default_value' => $config->get('testimonial_display'),
     );
 
     $form['homepage']['services'] = array(
       '#type' => 'fieldset',
       '#title' => $this
-        ->t('Services Block'), 
-    '#default_value' => $config->get('services_display'), 
+        ->t('Services Block'),
+    '#default_value' => $config->get('services_display'),
     );
 
     $form['homepage']['services']['services_display'] = array(
       '#type' => 'checkbox',
       '#title' => $this
       ->t('Display services offered on the homepage?'),
-      '#default_value' => $config->get('services_display'), 
+      '#default_value' => $config->get('services_display'),
     );
 
     $form['homepage']['services']['service_1_title'] = array(
@@ -77,14 +81,14 @@ class PosseSettingsForm extends ConfigFormBase {
       '#size' => 60,
       '#maxlength' => 128,
       '#required' => TRUE,
-      '#default_value' => $config->get('service_1_title'), 
+      '#default_value' => $config->get('service_1_title'),
     );
 
     $form['homepage']['services']['service_1_body'] = array(
     '#type' => 'textarea',
     '#title' => $this
         ->t('First Service Offered Description'),
-    '#default_value' => $config->get('service_1_body'), 
+    '#default_value' => $config->get('service_1_body'),
     );
 
     $form['homepage']['services']['service_2_title'] = array(
@@ -95,14 +99,14 @@ class PosseSettingsForm extends ConfigFormBase {
       '#size' => 60,
       '#maxlength' => 128,
       '#required' => TRUE,
-      '#default_value' => $config->get('service_2_title'), 
+      '#default_value' => $config->get('service_2_title'),
     );
 
      $form['homepage']['services']['service_2_body'] = array(
       '#type' => 'textarea',
       '#title' => $this
         ->t('Second Service Offered Description'),
-      '#default_value' => $config->get('service_2_body'), 
+      '#default_value' => $config->get('service_2_body'),
     );
 
      $form['homepage']['services']['service_3_title'] = array(
@@ -113,14 +117,14 @@ class PosseSettingsForm extends ConfigFormBase {
       '#size' => 60,
       '#maxlength' => 128,
       '#required' => TRUE,
-      '#default_value' => $config->get('service_3_title'), 
+      '#default_value' => $config->get('service_3_title'),
     );
 
      $form['homepage']['services']['service_3_body'] = array(
     '#type' => 'textarea',
     '#title' => $this
         ->t('Third Service Offered Description'),
-    '#default_value' => $config->get('service_3_body'), 
+    '#default_value' => $config->get('service_3_body'),
     );
 
     return parent::buildForm($form, $form_state);
