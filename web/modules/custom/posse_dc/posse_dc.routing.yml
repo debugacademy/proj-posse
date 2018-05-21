@@ -1,0 +1,10 @@
+
+posse_dc.posse_settings:
+  path: '/settings'
+  defaults:
+    _form: '\Drupal\posse_dc\Form\PosseSettingsForm'
+    _title: 'Posse Settings '
+  requirements:
+    _permission: 'access content'
+  
+
