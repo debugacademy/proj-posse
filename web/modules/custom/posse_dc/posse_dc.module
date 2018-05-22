@@ -17,3 +17,4 @@ function posse_dc_preprocess(&$variables, $hook) {
 	$variables['services_block'] = $services_block_content;
 
 }
+

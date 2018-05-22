@@ -37,6 +37,7 @@ module:
   posse_dc: 0
   quickedit: 0
   rdf: 0
+  responsive_menu: 0
   search: 0
   serialization: 0
   shortcut: 0

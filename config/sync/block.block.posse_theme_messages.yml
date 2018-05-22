@@ -11,7 +11,7 @@ _core:
 id: posse_theme_messages
 theme: posse_theme
 region: highlighted
-weight: -7
+weight: -8
 provider: null
 plugin: system_messages_block
 settings:
