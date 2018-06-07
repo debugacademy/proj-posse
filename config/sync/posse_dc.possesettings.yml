@@ -1,0 +1,15 @@
+blog_display: 0
+portfolio_display: 0
+testimonial_display: 0
+services_display: 1
+service_1_title: 'WEB DEVELOPMENT '
+service_1_body: 'Lorem Ipsum dolor sit amet, consecteur adipiscing elit. Nunc convallis lectus non est condimentum, commodo mollis.'
+service_2_title: 'APP DEVELOPMENT '
+service_2_body: 'Lorem Ipsum dolor sit amet, consecteur adipiscing elit. Nunc convallis lectus non est condimentum, commodo mollis.'
+service_3_title: 'SEO DEVELOPMENT '
+service_3_body: 'Lorem Ipsum dolor sit amet, consecteur adipiscing elit. Nunc convallis lectus non est condimentum, commodo mollis.'
+submit: 'Save configuration'
+form_build_id: form-ME7OOYdboMVpvc04DxcUgW4iy2jw37somDzhZTCXMdQ
+form_token: j4Qze2t_XgZlIGhioFKUo1TYNpOIUztIi-EayBszQ6o
+form_id: posse_settings
+op: 'Save configuration'
