@@ -99,7 +99,12 @@ h4 {
         &:last-child {
           margin-left: 4.3%;
         }
+        span {
+        font-weight: lighter;
+        opacity: 0.5;
+        }
       }
+
       .web-development {
         background: url("../images/icon-computer.png") no-repeat center top;
       }

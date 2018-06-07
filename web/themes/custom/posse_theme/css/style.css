@@ -6431,6 +6431,9 @@ h4 {
           margin-right: 4.3%; }
         .services-wrapper #block-services .services-list li:last-child {
           margin-left: 4.3%; }
+        .services-wrapper #block-services .services-list li span {
+          font-weight: lighter;
+          opacity: 0.5; }
       .services-wrapper #block-services .services-list .web-development {
         background: url("../images/icon-computer.png") no-repeat center top; }
       .services-wrapper #block-services .services-list .app-development {
