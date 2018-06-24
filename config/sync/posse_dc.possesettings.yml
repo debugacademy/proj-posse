@@ -1,0 +1,15 @@
+blog_display: 1
+portfolio_display: 1
+testimonial_display: 1
+services_display: 1
+service_1_title: 'WEB DEVELOPMENT '
+service_1_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc convallis lectus non est condimentum, commodo molis.'
+service_2_title: 'APP DEVELOPMENT '
+service_2_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc convallis lectus non est condimentum, commodo molis.'
+service_3_title: 'SEO DEVELOPMENT '
+service_3_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc convallis lectus non est condimentum, commodo molis.'
+submit: 'Save configuration'
+form_build_id: form-DnStsVo5BxtC3XPs07n2QVWsNjbvoBlw2jur7k5-ev8
+form_token: WI7xIe-huUF5sa422f34wUgUKCZ3aVyHSSPtA-fO2iw
+form_id: posse_settings
+op: 'Save configuration'
