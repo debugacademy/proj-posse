@@ -1,0 +1,38 @@
+uuid: 74ff3798-6040-48c5-b1ea-e99188d68f7c
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - ctools
+    - system
+    - views
+  theme:
+    - posse_theme
+id: views_block__portfolio_block_1
+theme: posse_theme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      portfolio: portfolio
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

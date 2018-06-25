@@ -1,0 +1,43 @@
+uuid: 6c713519-1c18-45d0-8a1a-26f081b7cbb2
+langcode: en
+status: false
+dependencies:
+  config:
+    - field.field.node.testimonial.body
+  module:
+    - ctools
+    - layout_builder
+    - system
+  theme:
+    - posse_theme
+id: testimonial
+theme: posse_theme
+region: content
+weight: -2
+provider: null
+plugin: 'field_block:node:testimonial:body'
+settings:
+  id: 'field_block:node:testimonial:body'
+  label: Testimonial
+  provider: layout_builder
+  label_display: '0'
+  formatter:
+    label: above
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      testimonial: testimonial
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
