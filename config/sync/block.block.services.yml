@@ -4,6 +4,7 @@ status: false
 dependencies:
   module:
     - posse_dc
+    - system
   theme:
     - posse_theme
 id: services
@@ -17,4 +18,9 @@ settings:
   label: Services
   provider: posse_dc
   label_display: visible
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
