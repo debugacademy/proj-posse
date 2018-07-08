@@ -10,28 +10,34 @@ function posse_dc_preprocess(&$variables, $hook) {
 	$testimonial_block = views_embed_view('testimonial', 'block_1');
 	$testimonial['testimonial_block'] = $testimonial_block;
 
+	$meetthedevblock_block = views_embed_view('meetthedevblock', 'block_1');
+	$meetthedevblock['meetthedevblock_block'] = $meetthedevblock_block;
+
 	$services_block = \Drupal\block\Entity\Block::load('services');
 	$services_block_content = \Drupal::entityManager()
 	  ->getViewBuilder('block')
 	  ->view($services_block);
+
 	$variables['services_block'] = $services_block_content;
 
 	$posse_config = \Drupal::config('posse_dc.possesettings');
 
 	$variables['blog_display'] = (bool) $posse_config->get('blog_display');
-		
+
 	$variables['portfolio_display'] = (bool) $posse_config->get('portfolio_display');
-		
+
 	$variables['services_display'] = (bool) $posse_config->get('services_display');
+
+	$variables['meetthedevblock_display'] = (bool) $posse_config->get('meetthedevblock_display');
 
 	$variables['testimonial_display'] = (bool) $posse_config->get('testimonial_display');
 
-	$variables['service_1_title'] = $posse_config->get('service_1_title');	
+	$variables['service_1_title'] = $posse_config->get('service_1_title');
 	$variables['service_1_body'] =  $posse_config->get('service_1_body');
-	$variables['service_2_title'] = $posse_config->get('service_2_title');	
-	$variables['service_2_body'] = $posse_config->get('service_2_body');	
-	$variables['service_3_title'] = $posse_config->get('service_3_title');	
-	$variables['service_3_body'] = $posse_config->get('service_3_body');	
+	$variables['service_2_title'] = $posse_config->get('service_2_title');
+	$variables['service_2_body'] = $posse_config->get('service_2_body');
+	$variables['service_3_title'] = $posse_config->get('service_3_title');
+	$variables['service_3_body'] = $posse_config->get('service_3_body');
 	$variables['posse_color'] =  $posse_config->get('posse_color');
-			
+
 }
