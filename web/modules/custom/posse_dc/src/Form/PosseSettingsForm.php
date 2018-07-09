@@ -59,6 +59,52 @@ class PosseSettingsForm extends ConfigFormBase {
       '#default_value' => $config->get('testimonial_display'),
     );
 
+    $form['homepage']['meetthedevblock'] = array(
+      '#type' => 'fieldset',
+      '#title' => $this
+        ->t('Meet The Dev'),
+    '#default_value' => $config->get('meetthedevblock_display'),
+    );
+
+    $form['homepage']['meetthedevblock']['meetthedevblock_display'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this
+      ->t('Display Meet The Dev on the homepage?'),
+      '#default_value' => $config->get('meetthedevblock_display'),
+    );
+
+
+    $form['homepage']['meetthedevblock']['meetthedevblock_title'] = array(
+      '#type' => 'textfield',
+      '#title' => $this
+        ->t('Name'),
+      '#default_value' => $node->title,
+      '#size' => 60,
+      '#maxlength' => 128,
+      '#required' => TRUE,
+      '#default_value' => $config->get('meetthedevblock_title'),
+    );
+
+
+    $form['homepage']['services']['service_1_title'] = array(
+      '#type' => 'textfield',
+      '#title' => $this
+        ->t('First Services Offered'),
+      '#default_value' => $node->title,
+      '#size' => 60,
+      '#maxlength' => 128,
+      '#required' => TRUE,
+      '#default_value' => $config->get('service_1_title'),
+    );
+
+    $form['homepage']['meetthedevblock']['meetthedevblock_body'] = array(
+    '#type' => 'textarea',
+    '#title' => $this
+        ->t('Description'),
+    '#default_value' => $config->get('meetthedevblock_body'),
+    );
+
+
     $form['homepage']['services'] = array(
       '#type' => 'fieldset',
       '#title' => $this
