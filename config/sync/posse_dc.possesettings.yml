@@ -9,7 +9,18 @@ service_2_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc c
 service_3_title: 'SEO DEVELOPMENT '
 service_3_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc convallis lectus non est condimentum, commodo molis.'
 submit: 'Save configuration'
-form_build_id: form-DnStsVo5BxtC3XPs07n2QVWsNjbvoBlw2jur7k5-ev8
-form_token: WI7xIe-huUF5sa422f34wUgUKCZ3aVyHSSPtA-fO2iw
+form_build_id: form-vqw0AJU6Eifu8V_ztYyB0aWbHNOvfkchsr9w5kq0IKw
+form_token: DwV-ax0DxDx16MCsPBndra2l_ZKqUuTj_UGlOshexW8
 form_id: posse_settings
 op: 'Save configuration'
+meetthedevblock_display: 1
+meetthedevblock_title: 'Adrienne Dao'
+meetthedevblock_body: 'Lorem ipsum dolor sit amet, consectetur edipiscing elit. Nunc convallis lectus non est condimentum, commodo molis.'
+meetthedev_image:
+  - '2'
+meetthedevblock_image:
+  - '8'
+meetthedevblock_image_display:
+  - '6'
+Left_image:
+  - '7'
