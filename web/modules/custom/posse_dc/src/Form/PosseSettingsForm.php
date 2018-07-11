@@ -63,7 +63,6 @@ class PosseSettingsForm extends ConfigFormBase {
       '#type' => 'fieldset',
       '#title' => $this
         ->t('Meet The Dev'),
-    '#default_value' => $config->get('meetthedevblock_display'),
     );
 
     $form['homepage']['meetthedevblock']['meetthedevblock_display'] = array(
@@ -73,28 +72,28 @@ class PosseSettingsForm extends ConfigFormBase {
       '#default_value' => $config->get('meetthedevblock_display'),
     );
 
+    $form['homepage']['meetthedevblock_image'] = [
+      '#type' => 'managed_file',
+      '#upload_location' => 'public://homepage-blocks/',
+      '#multiple' => FALSE,
+      '#description' => t('Allowed extensions: gif png jpg jpeg. Dimensions: 800x525'),
+      '#upload_validators' => [
+      'file_validate_is_image' => array(),
+      'file_validate_extensions' => array('gif png jpg jpeg'),
+      'file_validate_size' => array(25600000)
+    ],
+      '#title' => t('meetthedevblock_image'),
+      '#default_value' => \Drupal::config('posse_settings')->get('meetthedevblock_image')
+    ];
 
     $form['homepage']['meetthedevblock']['meetthedevblock_title'] = array(
       '#type' => 'textfield',
       '#title' => $this
         ->t('Name'),
-      '#default_value' => $node->title,
       '#size' => 60,
       '#maxlength' => 128,
       '#required' => TRUE,
       '#default_value' => $config->get('meetthedevblock_title'),
-    );
-
-
-    $form['homepage']['services']['service_1_title'] = array(
-      '#type' => 'textfield',
-      '#title' => $this
-        ->t('First Services Offered'),
-      '#default_value' => $node->title,
-      '#size' => 60,
-      '#maxlength' => 128,
-      '#required' => TRUE,
-      '#default_value' => $config->get('service_1_title'),
     );
 
     $form['homepage']['meetthedevblock']['meetthedevblock_body'] = array(
@@ -103,7 +102,6 @@ class PosseSettingsForm extends ConfigFormBase {
         ->t('Description'),
     '#default_value' => $config->get('meetthedevblock_body'),
     );
-
 
     $form['homepage']['services'] = array(
       '#type' => 'fieldset',

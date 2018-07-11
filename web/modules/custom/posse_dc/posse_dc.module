@@ -10,9 +10,6 @@ function posse_dc_preprocess(&$variables, $hook) {
 	$testimonial_block = views_embed_view('testimonial', 'block_1');
 	$testimonial['testimonial_block'] = $testimonial_block;
 
-	$meetthedevblock_block = views_embed_view('meetthedevblock', 'block_1');
-	$meetthedevblock['meetthedevblock_block'] = $meetthedevblock_block;
-
 	$services_block = \Drupal\block\Entity\Block::load('services');
 	$services_block_content = \Drupal::entityManager()
 	  ->getViewBuilder('block')
@@ -39,6 +36,7 @@ function posse_dc_preprocess(&$variables, $hook) {
 	$variables['service_3_title'] = $posse_config->get('service_3_title');	
 	$variables['service_3_body'] = $posse_config->get('service_3_body');	
 	$variables['posse_color'] =  $posse_config->get('posse_color');
+	$variables['meetthedevblock_image'] = $posse_config->get('meetthedevblock_image');
 	$variables['meetthedevblock_title'] = $posse_config->get('meetthedevblock_title');
 	$variables['meetthedevblock_body'] = $posse_config->get('meetthedevblock_body');
 			
