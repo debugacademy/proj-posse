@@ -14,4 +14,3 @@ function posse_theme_preprocess(&$variables, $hook) {
 }
 
 
-
