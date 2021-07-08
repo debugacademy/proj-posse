@@ -1,0 +1,20 @@
+uuid: 5f6f6957-700b-473c-8e52-573d4616772d
+langcode: en
+status: true
+dependencies:
+  module:
+    - posse_dc
+  theme:
+    - posse_theme
+id: servicesblock
+theme: posse_theme
+region: content
+weight: 0
+provider: null
+plugin: services_block
+settings:
+  id: services_block
+  label: 'Services block'
+  provider: posse_dc
+  label_display: visible
+visibility: {  }
